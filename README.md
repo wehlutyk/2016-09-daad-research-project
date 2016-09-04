@@ -8,6 +8,6 @@ Generate the pdf
 
 You need `pandoc`, `make`, and a decent LaTeX distribution.
 
-To build: `make`, and open `whitepaper.pdf`.
+To build: `make`, and open `project.pdf`.
 
 To build continuously (after every edit): install `inotify-tools` if you don't already have it, then `make watch`.
