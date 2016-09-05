@@ -34,7 +34,7 @@ Ces représentations sont-elles attractrices pour le processus d'interprétation
 Ou encore, quels modules cognitifs sont impliqués dans la stabilité de telle ou telle représentation culturelle ?
 
 Ce programme, qui donne notamment un cadre pour explorer l'interaction entre évolution et culture [comme montré dans @baumard_mutualistic_2013], a fait l'objet de récents développements théoriques avec une véritable modélisation mathématique [voir par exemple @claidiere_role_2007].
-Un certain nombre de travaux explorent également ces questions par une approche empirique.
+De nombreux travaux explorent également ces questions par une approche empirique.
 @tamariz_cultural_2016, par exemple, passent en revue les utilisations du paradigme des chaînes de transmission en laboratoire pour l'étude de l'évolution du langage par itérations.
 Ce paradigme a aussi été utilisé pour étudier l'évolution de courtes boucles musicales [@maccallum_evolution_2012], de la perception du risque [@moussaid_amplification_2015], ou encore de motifs visuels abstraits transmis par des grands singes [@claidiere_cultural_2014].
 Une autre approche consiste à compiler un grand nombre de travaux anthropologiques ou historiques sur un sujet donné pour en extraire l'évolution des représentations telle qu'elle a eu lieu.
@@ -43,10 +43,15 @@ C'est la technique utilisée par @morin_how_2013 pour étudier l'évolution des 
 \add{refs systèmes complexes propagation ?}
 
 La difficulté à recueillir les données pertinentes à l'étude d'un type de représentation donné est le principal obstacle à l'avancée de ce programme empirique.
-Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y faire face, mais se heurtent à l'association des complexités.
-Ils se concentrent donc le plus souvent sur une transmission culturelle contrôlée en laboratoire, ou au contenu artificiellement simplifié, ou dans des conditions ne donnant pas lieu à des effets cognitifs significatifs.
-Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici deux nouvelles méthodes qui viennent complémenter les techniques existantes.
-En combinant les approches et les paradigmes des études de communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
+Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y faire face, mais se concentrent le plus souvent sur une transmission culturelle contrôlée en laboratoire, ou au contenu artificiellement simplifié, ou dans des conditions n'étant pas sujettes à des effets cognitifs significatifs.
+Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter les techniques existantes.
+En combinant les paradigmes de l'étude des communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
+
+\todo{Relire et réécrire.}
+On utilisera deux méthodes à cet effet.
+La première utilise une grande base de données de traces numériques et utilise les techniques du *data mining* pour poser une question informée par les sciences cognitives.
+La deuxième chemine en sens inverse : il s'agit de concevoir une expérience de psycholinguistique à exécuter en ligne par l'intermédiaire d'un site internet.
+Les deux approches offrent des contraintes différentes des méthodes citées ci-dessus, et permettent ainsi de poser de nouvelles questions.
 
 Projet
 ======
@@ -54,7 +59,7 @@ Projet
 \todo{Relire et élaguer}
 
 On se propose d'explorer empiriquement l'épidémiologie des représentations en partant d'un cas particulier :
-les citations (au sens de quotations).
+les citations (au sens de *quotations*).
 Un tel projet comporte deux grandes parties complémentaires et parallèles.
 La première consiste à comprendre le processus d'interprétation-reproduction par lequel les citations sont transformées successivement ;
 la deuxième consiste à développer des modèles de diffusion épidémiologique intégrant les transformations élémentaires qu'on identifie dans la première partie, pour les comparer à des phénomènes réels et comprendre le rôle des transformations microscopiques dans l'évolution du paysage global.
