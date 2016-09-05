@@ -2,7 +2,7 @@
 title: Projet de Recherche
 author: Sébastien Lerique^[
     Centre d'Analyse et de Mathématique Sociales (UMR 8557, EHESS, Paris), et Centre Marc Bloch (Berlin).
-    Mél.:\ \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
+    Mél.\ :\ \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
   ]
 lang: fr-FR
 geometry: margin=1.2in
