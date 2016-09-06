@@ -1,8 +1,21 @@
 ---
-title: Projet de Recherche
-author: Sébastien Lerique^[
-    Centre d'Analyse et de Mathématique Sociales (UMR 8557, EHESS, Paris).
-    Mél.\ :\ \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
+title: |
+  \large Projet de Recherche \
+  \LARGE Épidémiologie des représentations :\
+  une approche empirique
+author: |
+  Sébastien Lerique^[
+    Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
+    Mél.\ : \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
+  ] \
+  \hfill \
+  Directeur\ :\ Jean-Pierre Nadal^[
+    CAMS et Laboratoire de Physique Statistique (UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
+    Mél.\ : \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
+  ] \
+  Co-directeur\ :\ Camille Roth^[
+    CAMS et Centre Marc Bloch (UMIFRE 14, CNRS-MAEE-HU, Berlin).
+    Mél.\ :\ \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
   ]
 lang: fr-FR
 geometry: margin=1.2in
@@ -15,6 +28,7 @@ header-includes:
   - \usepackage[usenames,dvipsnames]{color}
   - \newcommand{\add}[1]{{\color{MidnightBlue}\# ADD:} {\color{MidnightBlue}#1}}
   - \newcommand{\todo}[1]{{\color{BrickRed}\# TODO:} {\color{BrickRed}#1}}
+  - \newcommand{\change}[1]{{\color{RedViolet}CHANGE} {\color{RedViolet}[#1]}}
 ---
 
 
@@ -58,26 +72,31 @@ Elles étendent le champ d'expérimentation possible et ouvrent de nouvelles que
 Projet
 ======
 
-\todo{Relire et élaguer}
-
-On se propose d'explorer empiriquement l'épidémiologie des représentations en partant d'un cas particulier :
+On se propose de contribuer à l'exploration empirique de l'épidémiologie des représentations en partant d'un cas particulier :
 les citations (au sens de *quotations*).
-Un tel projet comporte deux grandes parties complémentaires et parallèles.
-La première consiste à comprendre le processus d'interprétation-reproduction par lequel les citations sont transformées successivement ;
-la deuxième consiste à développer des modèles de diffusion épidémiologique intégrant les transformations élémentaires qu'on identifie dans la première partie, pour les comparer à des phénomènes réels et comprendre le rôle des transformations microscopiques dans l'évolution du paysage global.
 On choisit délibérément de se restreindre à ce cas particulier le plus simple possible afin de s'assurer que l'étude sera réalisable avec les moyens et les connaissances actuels, et pour pouvoir profiter du cadre intéressant offert par les citations.
 En effet :
 
 - Alors que les citations ne devraient subir aucune transformation quand elles sont reproduites, l'observation empirique montre le contraire :
-  il est très fréquent qu'une citation soit transformée (par rognage, ou par remplacement, insertion ou délétion de mots), ou modifiée grammaticalement
-  [c'est bien connu à l'oral dans des tâches de rappel libre ou indicé ;
-  voir @simmons_memes_2011 pour une illustration sur la blogosphère].
+  il est très fréquent qu'une citation soit transformée (par rognage, ou par remplacement, insertion ou délétion de mots), ou modifiée grammaticalement.
+  C'est bien connu à l'oral dans des tâches de rappel libre ou indicé [@potter_regeneration_1990] ;
+  voir @simmons_memes_2011 pour une illustration sur la blogosphère, et @lauf_analyzing_2013 pour une typologie des transformations fréquemment observées.
 - Les citations, généralement assez courtes, se prêtent bien à l'étude automatisée (Traitement Automatique du Langage), contrairement à d'autres types de représentations qu'on pourrait imaginer considérer.
-- On dispose d'une observation de référence qui est proche de la situation qui pourra être modélisée :
+- On dispose d'une observation de référence qui est proche de la situation qui pourra être simulée en expérience de chaîne de transmission :
   la dynamique des citations sur les blogs sur Internet [voir @leskovec_meme-tracking_2009 ; et @simmons_memes_2011].
-Cette situation semble unique lorsqu'on compare à d'autres représentations qu'on pourrait envisager d'étudier (comme des techniques, des images ou dessins, etc.).
+  Cette situation semble unique lorsqu'on compare à d'autres représentations qu'on pourrait envisager d'étudier (comme des techniques, des images ou dessins, etc.).
 
-Ce projet s'appuie sur le travail préliminaire qu'a constitué le stage de M2, effectué sur la dynamique des citations dans la blogosphère avec une approche plus simplement descriptive, et sur le développement d'un logiciel pour smartphones (voir plus loin), ces travaux démontrant la faisabilité du projet sur le plan technique.
+Un tel projet comporte trois grandes parties complémentaires.
+
+La première consiste à observer hors laboratoire, et analyser autant que les contraintes le permettent, le processus d'interprétation-reproduction par lequel les citations sont transformées.
+On confirme ainsi l'existence de biais cognitifs dans transmission des citations dans la société quotidienne, et on identifie les liens que ces biais peuvent avoir avec une attraction culturelle telle que proposée par l'épidémiologie des représentations.
+
+La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
+Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
+Elle permet également de mettre en lumière le rôle de la tâche de reproduction dans le type d'évolution à long terme qu'on observe.
+Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
+
+La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
 
 Travaux entrepris
 =================
