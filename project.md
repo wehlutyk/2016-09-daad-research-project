@@ -81,7 +81,9 @@ En effet :
   il est très fréquent qu'une citation soit transformée (par rognage, ou par remplacement, insertion ou délétion de mots), ou modifiée grammaticalement.
   C'est bien connu à l'oral dans des tâches de rappel libre ou indicé [@potter_regeneration_1990] ;
   voir @simmons_memes_2011 pour une illustration sur la blogosphère, et @lauf_analyzing_2013 pour une typologie des transformations fréquemment observées.
+
 - Les citations, généralement assez courtes, se prêtent bien à l'étude automatisée (Traitement Automatique du Langage), contrairement à d'autres types de représentations qu'on pourrait imaginer considérer.
+
 - On dispose d'une observation de référence qui est proche de la situation qui pourra être simulée en expérience de chaîne de transmission :
   la dynamique des citations sur les blogs sur Internet [voir @leskovec_meme-tracking_2009 ; et @simmons_memes_2011].
   Cette situation semble unique lorsqu'on compare à d'autres représentations qu'on pourrait envisager d'étudier (comme des techniques, des images ou dessins, etc.).
@@ -98,7 +100,7 @@ Ce travail crée les conditions pour une modélisation réelle du processus dans
 
 La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
 
-Par l'introduction de nouvelles méthodes, ce projet permet de lever progressivement certaines simplifications imposées par les outils actuels dans l'étude de l'évolution culturelle [voir @greenwald_there_2012 pour plus de détails sur l'intérêt de développer de nouvelles méthodes] :
+Par l'introduction de nouvelles méthodes, ce projet permet de lever progressivement certaines simplifications imposées par les outils actuels dans l'étude de l'évolution culturelle [voir @greenwald_there_2012, pour plus de détails sur l'intérêt de développer de nouvelles méthodes] :
 on étudie du contenu plus complexe, dans des situations souvent plus écologiques.
 La suite de ce document expose le travail accompli dans chacune des trois grandes parties, puis détaille le travail restant pour compléter le projet.
 
@@ -108,7 +110,24 @@ Travaux entrepris
 Étude des transformations des citations dans la blogosphère
 -----------------------------------------------------------
 
-\add{Éléments de l'introduction du papier MemeTracker}
+Le premier volet du projet est l'exploration de certaines transformations que subissent les citations dans la blogosphère.
+
+\add{
+
+- des travaux ont exploré (refs), mais
+
+- on voudrait savoir s'il y a des attracteurs pour notre cas, sachant que c'est textbook case
+
+- et on voudrait savoir quel rôle des biais cognitifs
+
+- on connecte les études en ligne (refs) avec la psycholinguistique (refs), en restant sur les substitutions pour faire face à la complexité (refs)
+
+- montre que la psycholinguistique connecte bien avec les études sur internet, montre qu'il y a des biais clairs et que ça génère des attracteurs
+
+- montre le coût à faire cette étude, faire face aux incertitudes de "données secondaires" (un certain nombre d'explorations, notamment de chaînes, n'ont pas porté de fruits à cause de ce problème)
+
+- en cours de publication (lien) : soumis, revenu, révisé, re-soumis
+}
 
 Étude en situation semi-contrôlée : expérience Gistr
 -----------------------------------------------------
