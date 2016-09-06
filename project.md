@@ -26,8 +26,8 @@ csl: apa.csl
 header-includes:
   - \usepackage{palatino}
   - \usepackage[usenames,dvipsnames]{color}
-  - \newcommand{\add}[1]{{\color{MidnightBlue}\# ADD:} {\color{MidnightBlue}#1}}
-  - \newcommand{\todo}[1]{{\color{BrickRed}\# TODO:} {\color{BrickRed}#1}}
+  - \newcommand{\add}[1]{{\color{MidnightBlue}\#~ADD:} {\color{MidnightBlue}#1}}
+  - \newcommand{\todo}[1]{{\color{BrickRed}\#~TODO:} {\color{BrickRed}#1}}
   - \newcommand{\change}[1]{{\color{RedViolet}CHANGE} {\color{RedViolet}[#1]}}
 ---
 
@@ -35,13 +35,18 @@ header-includes:
 Introduction
 ============
 
+\todo{Pending restructuration discussion with Camille on better separating what's done and what's to do}
+
+\todo{Faire attention à attacher aussi un peu dans le champ de l'anthropologie culturelle, pas que psycho-cog (pas du temps perdu car utile pour l'état de l'art de la thèse) si jamais les Gutachterinnen ont l'heur d'être SHS}
+
 Les années récentes voient se développer les tentatives de rapprochement entre sciences cognitives et sciences sociales.
 "Cognition sociale", "économie cognitive" et "évolution culturelle" sont des exemples de thèmes émergents, abordés de manières multiples avec des apports de diverses disciplines.
 Le présent projet concerne un thème formalisé au milieu des années 90 par Dan Sperber.
 Dans une série d'articles novateurs rassemblés dans @sperber_explaining_1996, ce dernier propose un programme de recherche sur l'épidémiologie culturelle.
 Ce programme, enraciné dans les sciences cognitives, part d'une ontologie ne comportant que des représentations mentales (celles des sciences cognitives), et des représentations publiques (l'expression hors du cerveau d'une représentation mentale).
+\add{Un mot sur le problème que l'épidémiologie culturelle tente de résoudre, i.e. les conditions d'émergence de similarité globale malgré une forte hétérogénéité locale.}
 Le principe fondateur est de caractériser les cultures par la distribution de représentations publiques qui y circulent, puis de combiner les connaissances des sciences cognitives et de l'anthropologie pour expliquer l'évolution de ces représentations.
-La théorie s'appuie donc sur l'ensemble des sciences cognitives, tout en reformulant des questions de sciences sociales sous la forme de questions d'épidémiologie des représentations.
+La théorie s'appuie donc sur \change{l'ensemble des sciences cognitives (un peu gros)}, tout en reformulant des questions de sciences sociales sous la forme de questions d'épidémiologie des représentations.
 Par exemple : quelles représentations sont susceptibles d'être peu transformées lors de leur interprétation et reproduction par des cerveaux successifs ?
 Ces représentations, alors plus répandues que les autres, deviennent culturelles.
 Ces représentations sont-elles attractrices pour le processus d'interprétation-reproduction des représentations ?
@@ -54,14 +59,14 @@ Ce paradigme a aussi été utilisé pour étudier l'évolution de courtes boucle
 Une autre approche consiste à compiler un grand nombre de travaux anthropologiques ou historiques sur un sujet donné pour en extraire l'évolution des représentations telle qu'elle a eu lieu.
 C'est la technique utilisée par @morin_how_2013 pour étudier l'évolution du style des portraits sur plusieurs siècles, et par @miton_universal_2015 qui ont examiné l'évolution de la pratique de la saignée.
 
-\add{refs systèmes complexes propagation ?}
+\add{Refs systèmes complexes propagation, à formuler comme pour Lyon}
 
 La difficulté à recueillir les données pertinentes à l'étude d'un type de représentation donné est le principal obstacle à l'avancée de ce programme empirique.
 Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y faire face, mais se concentrent le plus souvent sur une transmission culturelle contrôlée en laboratoire, ou au contenu artificiellement simplifié, ou dans des conditions n'étant pas sujettes à des effets cognitifs significatifs.
-Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter les techniques existantes.
+Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter \add{et même révolutionner les protocoles empiriques employés jusqu’ici} les techniques existantes.
 En combinant les paradigmes de l'étude des communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
 
-Le présent projet de recherche, que je mets en œuvre dans ma thèse, explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
+Le présent projet de recherche, \change{que je mets en œuvre dans ma thèse (que tu mets déjà en œuvre ou qui te permettra en partie grâce à cette bourse DAAD de clôturer brillamment ta thèse ?)}, explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
 La première approche tire parti de la grande quantité de traces numériques disponibles en ligne :
 en y appliquant les techniques du *data mining* pour filtrer et extraire de la masse les informations pertinentes, il est possible de poser des questions quantitatives, liant cognition et évolution culturelle, à des données recueillies hors du laboratoire.
 La deuxième approche chemine en sens inverse : il s'agit d'utiliser les possibilités des navigateurs web modernes pour lever certaines contraintes des expériences de psycholinguistique ou d'évolution culturelle.
@@ -71,6 +76,8 @@ Elles étendent le champ d'expérimentation possible et ouvrent de nouvelles que
 
 Projet
 ======
+
+\todo{Ne pas limiter le projet aux quotations. Pour Gistr, c'est plus large que ça, donc faire avec "des courtes phrases" ou "orations" puis réduire pour MemeTracker.}
 
 On se propose de contribuer à l'exploration empirique de l'épidémiologie des représentations en partant d'un cas particulier :
 les citations (au sens de *quotations*).
@@ -149,6 +156,8 @@ Expérience Gistr
 --------
 
 \add{Esquisse d'un plan expliqué}
+
+\todo{Parler de la langue de travail au CMB}
 
 Bibliographie {-}
 =============
