@@ -61,12 +61,12 @@ Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y fair
 Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter les techniques existantes.
 En combinant les paradigmes de l'étude des communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
 
-On explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
+Le présent projet de recherche, que je mets en œuvre dans ma thèse, explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
 La première approche tire parti de la grande quantité de traces numériques disponibles en ligne :
 en y appliquant les techniques du *data mining* pour filtrer et extraire de la masse les informations pertinentes, il est possible de poser des questions quantitatives, liant cognition et évolution culturelle, à des données recueillies hors du laboratoire.
 La deuxième approche chemine en sens inverse : il s'agit d'utiliser les possibilités des navigateurs web modernes pour lever certaines contraintes des expériences de psycholinguistique ou d'évolution culturelle.
 Par exemple, des expériences de chaînes de transmission linguistique pourront être mises en place sous la forme de sites web, permettant un cycle de transmission d'autant plus rapide, une diversification des sujets, et un passage à l'échelle simplifié.
-Sans résoudre toutes les difficultés, ces deux approches offrent des contraintes différentes des méthodes utilisées dans les travaux cités ci-dessus.
+Sans résoudre toutes les difficultés, ces deux approches permettent d'analyser du contenu linguistique réel en offrant des contraintes différentes des méthodes utilisées dans les travaux cités ci-dessus.
 Elles étendent le champ d'expérimentation possible et ouvrent de nouvelles questions sur les liens entre cognition et évolution culturelle, dans une démarche liant sciences sociales, psycholinguistique et modélisation à grande échelle.
 
 Projet
@@ -97,6 +97,10 @@ Elle permet également de mettre en lumière le rôle de la tâche de reproducti
 Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
 
 La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
+
+Par l'introduction de nouvelles méthodes, ce projet permet de lever progressivement certaines simplifications imposées par les outils actuels dans l'étude de l'évolution culturelle [voir @greenwald_there_2012 pour plus de détails sur l'intérêt de développer de nouvelles méthodes] :
+on étudie du contenu plus complexe, dans des situations souvent plus écologiques.
+La suite de ce document expose le travail accompli dans chacune des trois grandes parties, puis détaille le travail restant pour compléter le projet.
 
 Travaux entrepris
 =================
