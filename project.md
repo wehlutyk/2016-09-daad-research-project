@@ -38,7 +38,7 @@ De nombreux travaux explorent également ces questions par une approche empiriqu
 @tamariz_cultural_2016, par exemple, passent en revue les utilisations du paradigme des chaînes de transmission en laboratoire pour l'étude de l'évolution du langage par itérations.
 Ce paradigme a aussi été utilisé pour étudier l'évolution de courtes boucles musicales [@maccallum_evolution_2012], de la perception du risque [@moussaid_amplification_2015], ou encore de motifs visuels abstraits transmis par des grands singes [@claidiere_cultural_2014].
 Une autre approche consiste à compiler un grand nombre de travaux anthropologiques ou historiques sur un sujet donné pour en extraire l'évolution des représentations telle qu'elle a eu lieu.
-C'est la technique utilisée par @morin_how_2013 pour étudier l'évolution des portraits, et par @miton_universal_2015 dans leur étude de l'évolution de la technique de la saignée.
+C'est la technique utilisée par @morin_how_2013 pour étudier l'évolution du style des portraits sur plusieurs siècles, et par @miton_universal_2015 qui ont examiné l'évolution de la pratique de la saignée.
 
 \add{refs systèmes complexes propagation ?}
 
@@ -47,11 +47,13 @@ Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y fair
 Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter les techniques existantes.
 En combinant les paradigmes de l'étude des communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
 
-\todo{Relire et réécrire.}
-On utilisera deux méthodes à cet effet.
-La première utilise une grande base de données de traces numériques et utilise les techniques du *data mining* pour poser une question informée par les sciences cognitives.
-La deuxième chemine en sens inverse : il s'agit de concevoir une expérience de psycholinguistique à exécuter en ligne par l'intermédiaire d'un site internet.
-Les deux approches offrent des contraintes différentes des méthodes citées ci-dessus, et permettent ainsi de poser de nouvelles questions.
+On explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
+La première approche tire parti de la grande quantité de traces numériques disponibles en ligne :
+en y appliquant les techniques du *data mining* pour filtrer et extraire de la masse les informations pertinentes, il est possible de poser des questions quantitatives, liant cognition et évolution culturelle, à des données recueillies hors du laboratoire.
+La deuxième approche chemine en sens inverse : il s'agit d'utiliser les possibilités des navigateurs web modernes pour lever certaines contraintes des expériences de psycholinguistique ou d'évolution culturelle.
+Par exemple, des expériences de chaînes de transmission linguistique pourront être mises en place sous la forme de sites web, permettant un cycle de transmission d'autant plus rapide, une diversification des sujets, et un passage à l'échelle simplifié.
+Sans résoudre toutes les difficultés, ces deux approches offrent des contraintes différentes des méthodes utilisées dans les travaux cités ci-dessus.
+Elles étendent le champ d'expérimentation possible et ouvrent de nouvelles questions sur les liens entre cognition et évolution culturelle, dans une démarche liant sciences sociales, psycholinguistique et modélisation à grande échelle.
 
 Projet
 ======
