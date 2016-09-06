@@ -6,16 +6,16 @@ title: |
 author: |
   Sébastien Lerique^[
     Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
-    Mél.\ : \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
+    Mél. : \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
   ] \
   \hfill \
-  Directeur\ :\ Jean-Pierre Nadal^[
+  Directeur : Jean-Pierre Nadal^[
     CAMS et Laboratoire de Physique Statistique (UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
-    Mél.\ : \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
+    Mél. : \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
   ] \
-  Co-directeur\ :\ Camille Roth^[
+  Co-directeur : Camille Roth^[
     CAMS et Centre Marc Bloch (UMIFRE 14, CNRS-MAEE-HU, Berlin).
-    Mél.\ :\ \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
+    Mél. : \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
   ]
 lang: fr-FR
 geometry: margin=1.2in
@@ -111,26 +111,24 @@ Travaux entrepris
 -----------------------------------------------------------
 
 Le premier volet du projet est l'exploration de certaines transformations que subissent les citations dans la blogosphère.
+De nombreux travaux ont déjà exploré l'évolution culturelle dans d'autres cas ;
+on peut citer la *Théorie de l'Hérédité Duale* (ou *Dual Inheritance Theory* en anglais) introduite par @boyd_culture_1985 et @cavalli-sforza_cultural_1981, les modélisations et travaux plus récents étudiant la notion d'attracteur culturel [voir par exemple @claidiere_role_2007 ; ou @claidiere_how_2014], les expériences de chaînes de transmission dont l'usage est discuté par @mesoudi_multiple_2008 et @tamariz_cultural_2016, ou encore les compilations de travaux anthropologiques et historiques telles que l'ont fait @morin_how_2013 et @miton_universal_2015.
+À notre connaissance cependant, aucun travail de recherche n'a examiné l'évolution de contenus linguistique hors du laboratoire.
 
-\add{
+Étant donné que les citations sur la blogosphère sont graduellement transformées, au fur et à mesure de leur propagation, par des biais cognitifs automatiques comme ceux que Sperber propose comme mécanisme pour l'épidémiologie des représentations, on cherche à savoir à quel point la théorie rend compte de l'évolution observée dans le jeu de données MemeTracker récolté par @leskovec_meme-tracking_2009.
+Notamment, il s'agit de tester si des attracteurs culturels apparaissent dans la dynamique des citations sur internet, et dans ce cas quel rôle jouent les biais cognitifs dans leur émergence.
 
-- des travaux ont exploré (refs), mais
+Le travail de recherche mené pour répondre à ces questions est présenté dans l'article "The semantic drift of quotations in blogspace: a case study in short-term cultural evolution", soumis en août 2016 à la revue *Cognitive Science* en révision majeure.
+Il consiste à adopter une approche de *data mining* comme celle utilisée par de nombreux travaux sur les communautés en ligne [par exemple @cointet_socio-semantic_2009 ; @danescu-niculescu-mizil_you_2012 ; ou encore @gruhl_information_2004] et à la combiner avec les connaissances existantes en psycholinguistique [en particulier celles sur les effets de certaines caractéristiques des mots sur le rappel, par exemple @yonelinas_nature_2002 ; ou @zevin_age_2002] pour analyser les remplacement d'un mot par un autre dans le jeu de données MemeTracker.
+En caractérisant les mots remplacés et les mots apparaissant à leur place, on montre que la façon dont les auteurs substituent des mots dans les citations est fortement biaisée, en accord avec les effets connus en psycholinguistique, et compatible avec l'hypothèse d'attracteurs culturels.
 
-- on voudrait savoir s'il y a des attracteurs pour notre cas, sachant que c'est textbook case
+Ce travail, qui complète la première partie du projet, montre qu'il est possible d'étudier l'épidémiologie des représentations sur du contenu linguistique complexe hors du laboratoire, en faisant l'équivalent d'une expérience de psycholinguistique sur des données de la blogosphère.
+Il montre également le coût d'une telle approche qui doit faire face à la complexité de données *in vivo*, que ce soit au travers du filtrage nécessaire de l'information ou de la reconstitution des données manquantes.
 
-- et on voudrait savoir quel rôle des biais cognitifs
-
-- on connecte les études en ligne (refs) avec la psycholinguistique (refs), en restant sur les substitutions pour faire face à la complexité (refs)
-
-- montre que la psycholinguistique connecte bien avec les études sur internet, montre qu'il y a des biais clairs et que ça génère des attracteurs
-
-- montre le coût à faire cette étude, faire face aux incertitudes de "données secondaires" (un certain nombre d'explorations, notamment de chaînes, n'ont pas porté de fruits à cause de ce problème)
-
-- en cours de publication (lien) : soumis, revenu, révisé, re-soumis
-}
+\todo{Uploader l'article sur HAL et mettre le lien}
 
 Étude en situation semi-contrôlée : expérience Gistr
------------------------------------------------------
+----------------------------------------------------
 
 \add{Éléments du Gistr Platform Whitepaper, et détails sur le premier lancement}
 
