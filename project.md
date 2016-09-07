@@ -35,8 +35,6 @@ header-includes:
 Introduction
 ============
 
-\todo{Pending restructuration discussion with Camille on better separating what's done and what's to do}
-
 \todo{Faire attention à attacher aussi un peu dans le champ de l'anthropologie culturelle, pas que psycho-cog (pas du temps perdu car utile pour l'état de l'art de la thèse) si jamais les Gutachterinnen ont l'heur d'être SHS}
 
 Les années récentes voient se développer les tentatives de rapprochement entre sciences cognitives et sciences sociales.
@@ -65,6 +63,8 @@ La difficulté à recueillir les données pertinentes à l'étude d'un type de r
 Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y faire face, mais se concentrent le plus souvent sur une transmission culturelle contrôlée en laboratoire, ou au contenu artificiellement simplifié, ou dans des conditions n'étant pas sujettes à des effets cognitifs significatifs.
 Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter \add{et même révolutionner les protocoles empiriques employés jusqu’ici} les techniques existantes.
 En combinant les paradigmes de l'étude des communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
+
+\todo{Pending restructuration discussion with Camille on better separating what's done and what's to do}
 
 Le présent projet de recherche, \change{que je mets en œuvre dans ma thèse (que tu mets déjà en œuvre ou qui te permettra en partie grâce à cette bourse DAAD de clôturer brillamment ta thèse ?)}, explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
 La première approche tire parti de la grande quantité de traces numériques disponibles en ligne :
@@ -132,8 +132,6 @@ En caractérisant les mots remplacés et les mots apparaissant à leur place, on
 Ce travail, qui complète la première partie du projet, montre qu'il est possible d'étudier l'épidémiologie des représentations sur du contenu linguistique complexe hors du laboratoire, en faisant l'équivalent d'une expérience de psycholinguistique sur des données de la blogosphère.
 Il montre également le coût d'une telle approche qui doit faire face à la complexité de données *in vivo*, que ce soit au travers du filtrage nécessaire de l'information ou de la reconstitution des données manquantes.
 
-\todo{Uploader l'article sur HAL et mettre le lien}
-
 Étude en situation semi-contrôlée : expérience Gistr
 ----------------------------------------------------
 
@@ -156,8 +154,6 @@ Expérience Gistr
 --------
 
 \add{Esquisse d'un plan expliqué}
-
-\todo{Parler de la langue de travail au CMB}
 
 Bibliographie {-}
 =============
