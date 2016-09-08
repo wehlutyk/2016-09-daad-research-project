@@ -1,23 +1,23 @@
 ---
 title: |
-  \large Projet de Recherche \
-  \LARGE Épidémiologie des représentations :\
-  une approche empirique
+  \large Research Project \
+  \LARGE Epidemiology of Representations:\
+  An Empirical Approach
 author: |
   Sébastien Lerique^[
     Centre d'Analyse et de Mathématique Sociales (CAMS, UMR 8557, CNRS-EHESS, Paris).
-    Mél. : \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
+    Email: \hbox{\href{mailto:sebastien.lerique@normalesup.org}{sebastien.lerique@normalesup.org}}.
   ] \
   \hfill \
-  Directeur : Jean-Pierre Nadal^[
-    CAMS et Laboratoire de Physique Statistique (UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
-    Mél. : \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
+  Advisor: Jean-Pierre Nadal^[
+    CAMS, and Laboratoire de Physique Statistique (LPS, UMR 8550, CNRS-ENS-UPMC-Univ. Paris Diderot, Paris).
+    Email: \hbox{\href{mailto:nadal@lps.ens.fr}{nadal@lps.ens.fr}}
   ] \
-  Co-directeur : Camille Roth^[
-    CAMS et Centre Marc Bloch (UMIFRE 14, CNRS-MAEE-HU, Berlin).
-    Mél. : \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
+  Co-advisor: Camille Roth^[
+    CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po Paris.
+    Email: \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
   ]
-lang: fr-FR
+lang: en-GB
 geometry: margin=1.2in
 numbersections: True
 bibliography: bibliography.bib
@@ -37,47 +37,67 @@ Introduction
 
 \todo{Faire attention à attacher aussi un peu dans le champ de l'anthropologie culturelle, pas que psycho-cog (pas du temps perdu car utile pour l'état de l'art de la thèse) si jamais les Gutachterinnen ont l'heur d'être SHS}
 
-Les années récentes voient se développer les tentatives de rapprochement entre sciences cognitives et sciences sociales.
-"Cognition sociale", "économie cognitive" et "évolution culturelle" sont des exemples de thèmes émergents, abordés de manières multiples avec des apports de diverses disciplines.
-Le présent projet concerne un thème formalisé au milieu des années 90 par Dan Sperber.
-Dans une série d'articles novateurs rassemblés dans @sperber_explaining_1996, ce dernier propose un programme de recherche sur l'épidémiologie culturelle.
-Ce programme, enraciné dans les sciences cognitives, part d'une ontologie ne comportant que des représentations mentales (celles des sciences cognitives), et des représentations publiques (l'expression hors du cerveau d'une représentation mentale).
-\add{Un mot sur le problème que l'épidémiologie culturelle tente de résoudre, i.e. les conditions d'émergence de similarité globale malgré une forte hétérogénéité locale.}
-Le principe fondateur est de caractériser les cultures par la distribution de représentations publiques qui y circulent, puis de combiner les connaissances des sciences cognitives et de l'anthropologie pour expliquer l'évolution de ces représentations.
-La théorie s'appuie donc sur \change{l'ensemble des sciences cognitives (un peu gros)}, tout en reformulant des questions de sciences sociales sous la forme de questions d'épidémiologie des représentations.
-Par exemple : quelles représentations sont susceptibles d'être peu transformées lors de leur interprétation et reproduction par des cerveaux successifs ?
-Ces représentations, alors plus répandues que les autres, deviennent culturelles.
-Ces représentations sont-elles attractrices pour le processus d'interprétation-reproduction des représentations ?
-Ou encore, quels modules cognitifs sont impliqués dans la stabilité de telle ou telle représentation culturelle ?
+Recent years have seen several attempts to bring cognitive science and social science together.
+"Social cognition", "cognitive economy" and "cultural evolution" are examples of such fields having recently emerged, approached from multiple viewpoints and involving a variety of disciplines.
+The project we put forward focuses on a subject formalised by Dan Sperber in the mid-nineties:
+in a series of innovative articles gathered in @sperber_explaining_1996, the author suggests a research program called *cultural epidemiology*, which aims to provide the cognitive and social sciences with a common framework to address a long-standing anthropological question:
+how can societies be so diverse when the people that form them are all made of the same psychological substrate?
+The framework Sperber suggests starts from an ontology made only of "mental representations" (those from cognitive science) and their expressions in the outer world, "public representations".
+The core principle is then to characterise societies by the distribution of public representations that circulate in them, and combine knowledge from cognitive science and anthropology to explain their evolution.
+As Sperber argues, this naturalistic approach builds on cognitive principles while at the same time allowing anthropological questions to be rephrased in terms of epidemiology of representations.
+For instance:
+what types of representations are only weakly transformed as they are interpreted and produced anew by successive people?
+Those representations, spreading wider than the others, become *cultural*.
+Are they attractors for the interpretation-reproduction process of representations?
+If so, which cognitive modules are involved in the stability of such representations?
 
-Ce programme, qui donne notamment un cadre pour explorer l'interaction entre évolution et culture [comme montré dans @baumard_mutualistic_2013], a fait l'objet de récents développements théoriques avec une véritable modélisation mathématique [voir par exemple @claidiere_role_2007].
-De nombreux travaux explorent également ces questions par une approche empirique.
-@tamariz_cultural_2016, par exemple, passent en revue les utilisations du paradigme des chaînes de transmission en laboratoire pour l'étude de l'évolution du langage par itérations.
-Ce paradigme a aussi été utilisé pour étudier l'évolution de courtes boucles musicales [@maccallum_evolution_2012], de la perception du risque [@moussaid_amplification_2015], ou encore de motifs visuels abstraits transmis par des grands singes [@claidiere_cultural_2014].
-Une autre approche consiste à compiler un grand nombre de travaux anthropologiques ou historiques sur un sujet donné pour en extraire l'évolution des représentations telle qu'elle a eu lieu.
-C'est la technique utilisée par @morin_how_2013 pour étudier l'évolution du style des portraits sur plusieurs siècles, et par @miton_universal_2015 qui ont examiné l'évolution de la pratique de la saignée.
+This research program provides a framework to explore the interactions between evolution and culture [as exemplified in @baumard_mutualistic_2013], and has recently seen several theoretical developments with genuine mathematical models [see for instance @claidiere_role_2007].
+A number of other works also explore these questions with empirical approaches.
+Artificial transmission chains in the laboratory, for instance, have been used extensively to study iterated language evolution, as @tamariz_cultural_2016 review.
+That paradigm has also been used to study the evolution of short audio loops [@maccallum_evolution_2012], of risk perception [@moussaid_amplification_2015], and of abstract visual patterns transmitted by apes [@claidiere_cultural_2014].
+Another approach is the meta-analysis of a large number of anthropological or historical works on a given subject to rebuild the evolution of a representation as it happened.
+This technique has been used by @morin_how_2013 in his study of how painted portraits change over the centuries, and by @miton_universal_2015 in their examination of the practice of bloodletting.
+A third approach crawls online content and communities in order to study the spread and propagation of representations in human networks.
+While earlier works were based on atomic propagation and exposure models where simple entities such as URLs and innovations were the central object [see @cointet_how_2007 for a discussion], this stream of research is increasingly modelling representations as deep objects with complexity of their own, improving on simpler virus-like models.
+Several works have now studied large quantities of meaningful sentences, showing that their propagation depends heavily on context [@bakshy_social_2009] and semantic content [@danescu-niculescu-mizil_you_2012], as well as on competition between items [@weng_competition_2012].
 
-\add{Refs systèmes complexes propagation, à formuler comme pour Lyon}
+The wide array of disciplines studying these complimentary questions, and the variety of techniques used in the process testify to a major obstacle:
+collecting relevant data in usable amounts to analyse cultural evolution is not easy.
+The works cited above develop several strategies to face the problem, yet invariably leave core aspects of the question aside:
+transmission chains operate on extremely simple representations;
+recompiling historical and anthropological works uncovers trends with many explanations competing for causality;
+models of online content propagation overlook cognitive levels of explanation by and large.
+It is possible, however, to combine the advantages of these techniques into new methods that significantly expand what empirical studies can tackle.
+By applying the tools of psycholinguistics to the study of online communities on one side, and enabling transmission chains to benefit from widespread computing power and internet infrastructure on the other side, we are able to collect massive amounts of usable data for the empirical and quantitative study of out-of-laboratory epidemiology of representations.
 
-La difficulté à recueillir les données pertinentes à l'étude d'un type de représentation donné est le principal obstacle à l'avancée de ce programme empirique.
-Les travaux mentionnés ci-dessus développent plusieurs stratégies pour y faire face, mais se concentrent le plus souvent sur une transmission culturelle contrôlée en laboratoire, ou au contenu artificiellement simplifié, ou dans des conditions n'étant pas sujettes à des effets cognitifs significatifs.
-Les outils technologiques modernes, et les moyens actuels de stockage de données et de calcul numérique, permettent de proposer ici de nouvelles méthodes qui viennent complémenter \add{et même révolutionner les protocoles empiriques employés jusqu’ici} les techniques existantes.
-En combinant les paradigmes de l'étude des communautés en ligne et ceux de la psycholinguistique, il est en effet possible de collecter en masse des données permettant une étude empirique, quantitative, et hors laboratoire de l'épidémiologie des représentations.
+Scientific Goals
+================
 
-\todo{Pending restructuration discussion with Camille on better separating what's done and what's to do}
+This research project, which, with the support of the DAAD, I will be able to conclude within my PhD, develops empirical approaches for the study of cultural evolution with the following two broad goals:
 
-Le présent projet de recherche, \change{que je mets en œuvre dans ma thèse (que tu mets déjà en œuvre ou qui te permettra en partie grâce à cette bourse DAAD de clôturer brillamment ta thèse ?)}, explorera deux approches visant (i) à augmenter la quantité de données recueillies pour améliorer le pouvoir de résolution des expériences, et (ii) à diversifier les sources de données pour ouvrir à de nouvelles questions sur des situations hors du laboratoire.
-La première approche tire parti de la grande quantité de traces numériques disponibles en ligne :
-en y appliquant les techniques du *data mining* pour filtrer et extraire de la masse les informations pertinentes, il est possible de poser des questions quantitatives, liant cognition et évolution culturelle, à des données recueillies hors du laboratoire.
-La deuxième approche chemine en sens inverse : il s'agit d'utiliser les possibilités des navigateurs web modernes pour lever certaines contraintes des expériences de psycholinguistique ou d'évolution culturelle.
-Par exemple, des expériences de chaînes de transmission linguistique pourront être mises en place sous la forme de sites web, permettant un cycle de transmission d'autant plus rapide, une diversification des sujets, et un passage à l'échelle simplifié.
-Sans résoudre toutes les difficultés, ces deux approches permettent d'analyser du contenu linguistique réel en offrant des contraintes différentes des méthodes utilisées dans les travaux cités ci-dessus.
-Elles étendent le champ d'expérimentation possible et ouvrent de nouvelles questions sur les liens entre cognition et évolution culturelle, dans une démarche liant sciences sociales, psycholinguistique et modélisation à grande échelle.
+1. Dramatically increase the amounts of data collected in order to improve experiments' resolving power, and
+1. Diversify data sources to open the study of out-of-laboratory quantitative questions on cultural evolution.
 
-Projet
-======
+We accomplish this by bringing data mining and psycholinguistics together through the possibilities of modern browsers and computing platforms.
+A first approach builds on the vast amounts of digital traces available online:
+by applying data mining techniques to filter and extract relevant information from large data sets, it becomes possible to ask quantitative cognitive-cultural questions to traces of activity from everyday lives.
+Our second approach connects fields the other way around:
+by using the potential and ubiquity of modern browsers, we lift a number of constraints on cognitive science and cultural evolution experiments in the laboratory.
+In particular, we develop transmission chain experiments as real-time web applications in the browser.
+This lets us work on ecological content with a much shorter transmission cycle and a diversified and easily scalable subject pool, while still keeping full control over the complexity of cognitive tasks implemented.
+Alongside this empirical work, we review the main critiques of the *epidemiology of representations* program, both from social anthropology and non-classical streams of cognitive science, which frame the questions of cultural evolution differently and pinpoint debated assumptions in need of further work.
 
-\todo{Ne pas limiter le projet aux quotations. Pour Gistr, c'est plus large que ça, donc faire avec "des courtes phrases" ou "orations" puis réduire pour MemeTracker.}
+Upon completion, this project will have shown a path to analyse the evolution of real linguistic content, and the links it has with overall cultural change, with a set of workable constraints compared to previous techniques.
+By fruitfully combining social science, psycholinguistics, and large scale modelling, it significantly widens the field of empirical possibilities and allows the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
+As @greenwald_there_2012 has argued, "there is nothing so theoretical as a good method".
+
+Project Breakdown
+=================
+
+\todo{Privilégier une présentation séquentielle : les fonds français m'ont permis de réaliser toutes ces étapes jusqu'ici, et d'en arriver à me dire que l'Allemagne pourrait mettre au pot pour finaliser cette dernière partie dont je vous parle là}
+
+Transformations of quotations in blogspace
+------------------------------------------
 
 On se propose de contribuer à l'exploration empirique de l'épidémiologie des représentations en partant d'un cas particulier :
 les citations (au sens de *quotations*).
@@ -111,12 +131,6 @@ Par l'introduction de nouvelles méthodes, ce projet permet de lever progressive
 on étudie du contenu plus complexe, dans des situations souvent plus écologiques.
 La suite de ce document expose le travail accompli dans chacune des trois grandes parties, puis détaille le travail restant pour compléter le projet.
 
-Travaux entrepris
-=================
-
-Étude des transformations des citations dans la blogosphère
------------------------------------------------------------
-
 Le premier volet du projet est l'exploration de certaines transformations que subissent les citations dans la blogosphère.
 De nombreux travaux ont déjà exploré l'évolution culturelle dans d'autres cas ;
 on peut citer la *Théorie de l'Hérédité Duale* (ou *Dual Inheritance Theory* en anglais) introduite par @boyd_culture_1985 et @cavalli-sforza_cultural_1981, les modélisations et travaux plus récents étudiant la notion d'attracteur culturel [voir par exemple @claidiere_role_2007 ; ou @claidiere_how_2014], les expériences de chaînes de transmission dont l'usage est discuté par @mesoudi_multiple_2008 et @tamariz_cultural_2016, ou encore les compilations de travaux anthropologiques et historiques telles que l'ont fait @morin_how_2013 et @miton_universal_2015.
@@ -132,28 +146,33 @@ En caractérisant les mots remplacés et les mots apparaissant à leur place, on
 Ce travail, qui complète la première partie du projet, montre qu'il est possible d'étudier l'épidémiologie des représentations sur du contenu linguistique complexe hors du laboratoire, en faisant l'équivalent d'une expérience de psycholinguistique sur des données de la blogosphère.
 Il montre également le coût d'une telle approche qui doit faire face à la complexité de données *in vivo*, que ce soit au travers du filtrage nécessaire de l'information ou de la reconstitution des données manquantes.
 
-Étude en situation semi-contrôlée : expérience Gistr
-----------------------------------------------------
+Semi-controlled transmission chains: Gistr experiment
+-----------------------------------------------------
 
-\add{Éléments du Gistr Platform Whitepaper, et détails sur le premier lancement}
+\add{
 
-L'apport de ces travaux à l'étude de l'évolution culturelle
------------------------------------------------------------
+- Elements of the Gistr Whitepaper (not limited to quotations),
 
-\add{Éléments du papier de linguistique, et comment les deux précédents travaux s'insèrent dans le projet}
+- Details on the first launch,
 
-Travaux actuels et prévus
-=========================
+- Work remaining, which will be finished by November
+}
 
-Expérience Gistr
-----------------
+Discussing empirical works in the context of current debates
+------------------------------------------------------------
 
-\add{Étapes restantes pour la complétion}
+\add{Elements of the epistemological paper (shortcomings), and how we show that the previous works open these questions to scrutiny
 
-Écriture
---------
+Social anthropologists and unorthodox streams from cognitive science in particular (extended, embodied, enactive, and embedded cognitive science), debate the notion of *cognitive representations*, and criticize the boundaries it defines between biological, psychological, and cultural [see in particular ingold; as well as cuffari].
 
-\add{Esquisse d'un plan expliqué}
+Important when you touch the relationship with context, which is what underlies meaning, and this surfaces is current experiments.}
+
+Planned work
+============
+
+\add{Remind last steps for Gistr}
+
+\add{Explain an outline for the manuscript}
 
 Bibliographie {-}
 =============
