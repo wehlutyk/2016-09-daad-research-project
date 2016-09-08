@@ -96,55 +96,39 @@ Project Breakdown
 
 \todo{Privilégier une présentation séquentielle : les fonds français m'ont permis de réaliser toutes ces étapes jusqu'ici, et d'en arriver à me dire que l'Allemagne pourrait mettre au pot pour finaliser cette dernière partie dont je vous parle là}
 
-Transformations of quotations in blogspace
-------------------------------------------
-
-On se propose de contribuer à l'exploration empirique de l'épidémiologie des représentations en partant d'un cas particulier :
-les citations (au sens de *quotations*).
-On choisit délibérément de se restreindre à ce cas particulier le plus simple possible afin de s'assurer que l'étude sera réalisable avec les moyens et les connaissances actuels, et pour pouvoir profiter du cadre intéressant offert par les citations.
-En effet :
-
-- Alors que les citations ne devraient subir aucune transformation quand elles sont reproduites, l'observation empirique montre le contraire :
-  il est très fréquent qu'une citation soit transformée (par rognage, ou par remplacement, insertion ou délétion de mots), ou modifiée grammaticalement.
-  C'est bien connu à l'oral dans des tâches de rappel libre ou indicé [@potter_regeneration_1990] ;
-  voir @simmons_memes_2011 pour une illustration sur la blogosphère, et @lauf_analyzing_2013 pour une typologie des transformations fréquemment observées.
-
-- Les citations, généralement assez courtes, se prêtent bien à l'étude automatisée (Traitement Automatique du Langage), contrairement à d'autres types de représentations qu'on pourrait imaginer considérer.
-
-- On dispose d'une observation de référence qui est proche de la situation qui pourra être simulée en expérience de chaîne de transmission :
-  la dynamique des citations sur les blogs sur Internet [voir @leskovec_meme-tracking_2009 ; et @simmons_memes_2011].
-  Cette situation semble unique lorsqu'on compare à d'autres représentations qu'on pourrait envisager d'étudier (comme des techniques, des images ou dessins, etc.).
-
-Un tel projet comporte trois grandes parties complémentaires.
-
 La première consiste à observer hors laboratoire, et analyser autant que les contraintes le permettent, le processus d'interprétation-reproduction par lequel les citations sont transformées.
 On confirme ainsi l'existence de biais cognitifs dans transmission des citations dans la société quotidienne, et on identifie les liens que ces biais peuvent avoir avec une attraction culturelle telle que proposée par l'épidémiologie des représentations.
 
-La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
-Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
-Elle permet également de mettre en lumière le rôle de la tâche de reproduction dans le type d'évolution à long terme qu'on observe.
-Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
 
-La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
+Transformations of quotations in blogspace
+------------------------------------------
 
-Par l'introduction de nouvelles méthodes, ce projet permet de lever progressivement certaines simplifications imposées par les outils actuels dans l'étude de l'évolution culturelle [voir @greenwald_there_2012, pour plus de détails sur l'intérêt de développer de nouvelles méthodes] :
-on étudie du contenu plus complexe, dans des situations souvent plus écologiques.
-La suite de ce document expose le travail accompli dans chacune des trois grandes parties, puis détaille le travail restant pour compléter le projet.
+The first stage of this project focused on the analysis of *in vivo* transformations.
+As alluded to in the introduction, several works have explored cultural evolution in other settings, starting with the *Dual Inheritance Theory* first introduced by @boyd_culture_1985 and @cavalli-sforza_cultural_1981.
+More recent models now include the notion of cultural attractor [see for instance @claidiere_role_2007 ; and @claidiere_how_2014].
+Empirical techniques include transmission chain experiments, the use of which is discussed by @mesoudi_multiple_2008 and @tamariz_cultural_2016 (for the case of linguistic evolution), and compilations of anthropological and historical works such as those made by @morin_how_2013 and @miton_universal_2015.
+To our knowledge however, the evolution of linguistic content out of the laboratory -- which constitutes an important milestone in the empirical testing of epidemiology of representations -- has not yet been studied.
 
-Le premier volet du projet est l'exploration de certaines transformations que subissent les citations dans la blogosphère.
-De nombreux travaux ont déjà exploré l'évolution culturelle dans d'autres cas ;
-on peut citer la *Théorie de l'Hérédité Duale* (ou *Dual Inheritance Theory* en anglais) introduite par @boyd_culture_1985 et @cavalli-sforza_cultural_1981, les modélisations et travaux plus récents étudiant la notion d'attracteur culturel [voir par exemple @claidiere_role_2007 ; ou @claidiere_how_2014], les expériences de chaînes de transmission dont l'usage est discuté par @mesoudi_multiple_2008 et @tamariz_cultural_2016, ou encore les compilations de travaux anthropologiques et historiques telles que l'ont fait @morin_how_2013 et @miton_universal_2015.
-À notre connaissance cependant, aucun travail de recherche n'a examiné l'évolution de contenus linguistique hors du laboratoire.
+We decided to study the following specific case in order to keep our analysis manageable: quotations on blogs and media websites.
+These short linguistic utterances additionally had a number of advantages:
 
-Étant donné que les citations sur la blogosphère sont graduellement transformées, au fur et à mesure de leur propagation, par des biais cognitifs automatiques comme ceux que Sperber propose comme mécanisme pour l'épidémiologie des représentations, on cherche à savoir à quel point la théorie rend compte de l'évolution observée dans le jeu de données MemeTracker récolté par @leskovec_meme-tracking_2009.
-Notamment, il s'agit de tester si des attracteurs culturels apparaissent dans la dynamique des citations sur internet, et dans ce cas quel rôle jouent les biais cognitifs dans leur émergence.
+- While quotations should normally not suffer any transformation when copied from website to website, actual observation shows that they do change regularly:
+  they are sometimes cropped, but are also transformed by replacement, deletion, or insertion of words, or even by more substantial grammatical changes.
+  This phenomenon is standard and well known in the oral case [@potter_regeneration_1990], and @simmons_memes_2011 have shown that is it also common in blogspace [see @lauf_analyzing_2013 for a typology of the most frequently observed transformations].
 
-Le travail de recherche mené pour répondre à ces questions est présenté dans l'article "The semantic drift of quotations in blogspace: a case study in short-term cultural evolution", soumis en août 2016 à la revue *Cognitive Science* en révision majeure.
-Il consiste à adopter une approche de *data mining* comme celle utilisée par de nombreux travaux sur les communautés en ligne [par exemple @cointet_socio-semantic_2009 ; @danescu-niculescu-mizil_you_2012 ; ou encore @gruhl_information_2004] et à la combiner avec les connaissances existantes en psycholinguistique [en particulier celles sur les effets de certaines caractéristiques des mots sur le rappel, par exemple @yonelinas_nature_2002 ; ou @zevin_age_2002] pour analyser les remplacement d'un mot par un autre dans le jeu de données MemeTracker.
-En caractérisant les mots remplacés et les mots apparaissant à leur place, on montre que la façon dont les auteurs substituent des mots dans les citations est fortement biaisée, en accord avec les effets connus en psycholinguistique, et compatible avec l'hypothèse d'attracteurs culturels.
+- Quotations are usually quite short, and thus well suited to Natural Language Processing techniques, as opposed to more elaborate types of representations one could consider analysing.
 
-Ce travail, qui complète la première partie du projet, montre qu'il est possible d'étudier l'épidémiologie des représentations sur du contenu linguistique complexe hors du laboratoire, en faisant l'équivalent d'une expérience de psycholinguistique sur des données de la blogosphère.
-Il montre également le coût d'une telle approche qui doit faire face à la complexité de données *in vivo*, que ce soit au travers du filtrage nécessaire de l'information ou de la reconstitution des données manquantes.
+- A reference data set, gathering a very large amount of online quotations from a million sources over nine months, has been made available by @leskovec_meme-tracking_2009 -- a unique situation compared, again, to other representations one could study.
+
+Given that quotations in blogspace are gradually transformed, when copied from website to website, through exactly the kind of cognitive bias suggested by Sperber as a mechanism for epidemiology of representations, we investigated to what point the theory accounts for transformation patterns observed in the data collected by @leskovec_meme-tracking_2009.
+In particular, we tested if cultural attractors appear in the dynamics of online quotations, and examined the role of cognitive biases in their emergence.
+
+The research developed to answer theses questions is presented in the article "The semantic drift of quotations in blogspace: a case study in short-term cultural evolution", submitted in August 2016 after major revisions to the journal *Cognitive Science*.
+It consisted in applying psycholinguistic knowledge [in particular the effects of known word features on recall, for instance @yonelinas_nature_2002 ; and @zevin_age_2002] in a *data mining* approach as is commonly used in the study of online communities [for instance @cointet_socio-semantic_2009 ; @danescu-niculescu-mizil_you_2012 ; and @gruhl_information_2004], to analyse word substitutions in the MemeTracker data set collected by @leskovec_meme-tracking_2009.
+Using this technique we show that the way online authors replace words is heavily biased, consistent with known effects in psycholinguistics, and compatible with the existence of cultural attractors.
+
+We also demonstrate is it possible to study epidemiology of representations on complex linguistic content out of the laboratory, by doing the equivalent of a large scale psycholinguistics experiment on data from blogspace.
+Finally, the manuscript discusses the cost that such a study faces in dealing with the compexity of *in vivo* data, be it through the necessary filtering techniques to remove spam or the reconstitution of missing information in the data.
 
 Semi-controlled transmission chains: Gistr experiment
 -----------------------------------------------------
@@ -158,6 +142,11 @@ Semi-controlled transmission chains: Gistr experiment
 - Work remaining, which will be finished by November
 }
 
+La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
+Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
+Elle permet également de mettre en lumière le rôle de la tâche de reproduction dans le type d'évolution à long terme qu'on observe.
+Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
+
 Discussing empirical works in the context of current debates
 ------------------------------------------------------------
 
@@ -166,6 +155,8 @@ Discussing empirical works in the context of current debates
 Social anthropologists and unorthodox streams from cognitive science in particular (extended, embodied, enactive, and embedded cognitive science), debate the notion of *cognitive representations*, and criticize the boundaries it defines between biological, psychological, and cultural [see in particular ingold; as well as cuffari].
 
 Important when you touch the relationship with context, which is what underlies meaning, and this surfaces is current experiments.}
+
+La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
 
 Planned work
 ============
