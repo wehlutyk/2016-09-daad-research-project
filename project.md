@@ -70,7 +70,7 @@ models of online content propagation overlook cognitive levels of explanation by
 It is possible, however, to combine the advantages of these techniques into new methods that significantly expand what empirical studies can tackle.
 By applying the tools of psycholinguistics to the study of online communities on one side, and enabling transmission chains to benefit from widespread computing power and internet infrastructure on the other side, we are able to collect massive amounts of usable data for the empirical and quantitative study of out-of-laboratory epidemiology of representations.
 
-Scientific Goals
+Scientific goals
 ================
 
 This research project, which, with the support of the DAAD, I will be able to conclude within my PhD, develops empirical approaches for the study of cultural evolution with the following two broad goals:
@@ -91,7 +91,7 @@ Upon completion, this project will have shown a path to analyse the evolution of
 By fruitfully combining social science, psycholinguistics, and large scale modelling, it significantly widens the field of empirical possibilities and allows the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
 As @greenwald_there_2012 has argued, "there is nothing so theoretical as a good method".
 
-Project Breakdown
+Project breakdown
 =================
 
 \todo{Privilégier une présentation séquentielle : les fonds français m'ont permis de réaliser toutes ces étapes jusqu'ici, et d'en arriver à me dire que l'Allemagne pourrait mettre au pot pour finaliser cette dernière partie dont je vous parle là}
@@ -132,6 +132,10 @@ Finally, the manuscript discusses the cost that such a study faces in dealing wi
 
 Semi-controlled transmission chains: Gistr experiment
 -----------------------------------------------------
+
+Because of the constraints of the data set used in the previous study (notably missing information that had to be inferred), a number of questions were left unanswered and warranted further exploration.
+
+### Planned work {-}
 
 \add{
 
