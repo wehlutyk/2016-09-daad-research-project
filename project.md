@@ -73,6 +73,8 @@ By applying the tools of psycholinguistics to the study of online communities on
 Scientific goals
 ================
 
+\todo{tone down}
+
 This research project, which, with the support of the DAAD, I will be able to conclude within my PhD, develops empirical approaches for the study of cultural evolution with the following two broad goals:
 
 1. Dramatically increase the amounts of data collected in order to improve experiments' resolving power, and
@@ -88,13 +90,10 @@ This lets us work on ecological content with a much shorter transmission cycle a
 Alongside this empirical work, we review the main critiques of the *epidemiology of representations* program, both from social anthropology and non-classical streams of cognitive science, which frame the questions of cultural evolution differently and pinpoint debated assumptions in need of further work.
 
 Upon completion, this project will have shown a path to analyse the evolution of real linguistic content, and the links it has with overall cultural change, with a set of workable constraints compared to previous techniques.
-By fruitfully combining social science, psycholinguistics, and large scale modelling, it significantly widens the field of empirical possibilities and allows the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
-As @greenwald_there_2012 has argued, "there is nothing so theoretical as a good method".
+By fruitfully combining social science, psycholinguistics, and large scale modelling, I hope to significantly widen the field of empirical possibilities and allows the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
 
 Project breakdown
 =================
-
-\todo{Privilégier une présentation séquentielle : les fonds français m'ont permis de réaliser toutes ces étapes jusqu'ici, et d'en arriver à me dire que l'Allemagne pourrait mettre au pot pour finaliser cette dernière partie dont je vous parle là}
 
 Transformations of quotations in blogspace
 ------------------------------------------
@@ -127,27 +126,6 @@ Using this technique we show that the way online authors replace words is heavil
 We also demonstrate is it possible to study epidemiology of representations on complex linguistic content out of the laboratory, by doing the equivalent of a large scale psycholinguistics experiment on data from blogspace.
 Finally, the manuscript discusses the cost that such a study faces in dealing with the compexity of *in vivo* data, be it through the necessary filtering techniques to remove spam or the reconstitution of missing information in the data.
 
-Semi-controlled transmission chains: Gistr experiment
------------------------------------------------------
-
-Because of the constraints of the data set used in the previous study (notably missing information that had to be inferred), a number of questions were left unanswered and warranted further exploration.
-
-### Planned work {-}
-
-\add{
-
-- Elements of the Gistr Whitepaper (not limited to quotations),
-
-- Details on the first launch,
-
-- Work remaining, which will be finished by November
-}
-
-La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
-Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
-Elle permet également de mettre en lumière le rôle de la tâche de reproduction dans le type d'évolution à long terme qu'on observe.
-Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
-
 Discussing empirical works in the context of current debates
 ------------------------------------------------------------
 
@@ -155,16 +133,52 @@ Discussing empirical works in the context of current debates
 
 Social anthropologists and unorthodox streams from cognitive science in particular (extended, embodied, enactive, and embedded cognitive science), debate the notion of *cognitive representations*, and criticize the boundaries it defines between biological, psychological, and cultural [see in particular ingold; as well as cuffari].
 
-Important when you touch the relationship with context, which is what underlies meaning, and this surfaces is current experiments.}
+Important when you touch the relationship with context, which is what underlies meaning, and this surfaces is current experiments.
+
+Concluding that these new methods open theoretical debates to empirical investigation.}
 
 La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
 
-Planned work
-============
+Semi-controlled transmission chains: Gistr experiment
+-----------------------------------------------------
 
-\add{Remind last steps for Gistr}
+Because of the constraints of the data set used in the previous study (notably missing information that had to be inferred), a number of questions were left unanswered and warranted further exploration.
 
-\add{Explain an outline for the manuscript}
+The second part of this project therefore focuses on an *in vitro* experiment which
+
+\add{
+
+- Elements of the Gistr Whitepaper (not limited to quotations),
+
+- Details on the first launch
+}
+
+### Planned work {-}
+
+\add{Work remaining, which will be done during the grant.
+
+- Anti spam
+
+- Rationalisation des sources (cf. wiki)
+
+- Transformations de courtes phrases à une seule composante
+
+- Transformations de phrases transformables en enlevant des composants, on transformant des composants
+
+- Modèle de marche aléatoire
+
+- Contrastes minimaux entre deux tâches
+}
+
+La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
+Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
+Elle permet également de mettre en lumière le rôle de la tâche de reproduction dans le type d'évolution à long terme qu'on observe.
+Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
+
+Location and environment
+========================
+
+\todo{Why CMB, with who}
 
 Bibliographie {-}
 =============
