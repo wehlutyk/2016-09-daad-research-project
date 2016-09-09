@@ -59,7 +59,7 @@ Another approach is the meta-analysis of a large number of anthropological or hi
 This technique has been used by @morin_how_2013 in his study of how painted portraits change over the centuries, and by @miton_universal_2015 in their examination of the practice of bloodletting.
 A third approach crawls online content and communities in order to study the spread and propagation of representations in human networks.
 While earlier works were based on atomic propagation and exposure models where simple entities such as URLs and innovations were the central object [see @cointet_how_2007 for a discussion], this stream of research is increasingly modelling representations as deep objects with complexity of their own, improving on simpler virus-like models.
-Several works have now studied large quantities of meaningful sentences, showing that their propagation depends heavily on context [@bakshy_social_2009] and semantic content [@danescu-niculescu-mizil_you_2012], as well as on competition between items [@weng_competition_2012].
+Several works have now studied large quantities of meaningful sentences, showing that their propagation depends heavily on social context [@bakshy_social_2009] and semantic content [@danescu-niculescu-mizil_you_2012], as well as on competition between items [@weng_competition_2012].
 
 The wide array of disciplines studying these complimentary questions, and the variety of techniques used in the process testify to a major obstacle:
 collecting relevant data in usable amounts to analyse cultural evolution is not easy.
@@ -90,7 +90,7 @@ This lets us work on ecological content with a much shorter transmission cycle a
 Alongside this empirical work, we review the main critiques of the *epidemiology of representations* program, both from social anthropology and non-classical streams of cognitive science, which frame the questions of cultural evolution differently and pinpoint debated assumptions in need of further work.
 
 Upon completion, this project will have shown a path to analyse the evolution of real linguistic content, and the links it has with overall cultural change, with a set of workable constraints compared to previous techniques.
-By fruitfully combining social science, psycholinguistics, and large scale modelling, I hope to significantly widen the field of empirical possibilities and allows the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
+By fruitfully combining social science, psycholinguistics, and large scale modelling, we hope to broaden the field of empirical possibilities, making it easier for the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
 
 Project breakdown
 =================
@@ -101,7 +101,7 @@ Transformations of quotations in blogspace
 The first stage of this project focused on the analysis of *in vivo* interpretation-reproduction process by which representations evolve.
 
 As alluded to in the introduction, several works have explored cultural evolution in other settings, starting with the *Dual Inheritance Theory* first introduced by @boyd_culture_1985 and @cavalli-sforza_cultural_1981.
-More recent models now include the notion of cultural attractor [see for instance @claidiere_role_2007 ; and @claidiere_how_2014].
+More recent models now include the notion of cultural attractor [see for instance @claidiere_role_2007; and @claidiere_how_2014].
 Empirical techniques include transmission chain experiments, the use of which is discussed by @mesoudi_multiple_2008 and @tamariz_cultural_2016 (for the case of linguistic evolution), and compilations of anthropological and historical works such as those made by @morin_how_2013 and @miton_universal_2015.
 To our knowledge however, the evolution of linguistic content out of the laboratory -- which constitutes an important milestone in the empirical testing of epidemiology of representations -- has not yet been studied.
 
@@ -110,7 +110,7 @@ These short linguistic utterances additionally had a number of advantages:
 
 - While quotations should normally not suffer any transformation when copied from website to website, actual observation shows that they do change regularly:
   they are sometimes cropped, but are also transformed by replacement, deletion, or insertion of words, or even by more substantial grammatical changes.
-  This phenomenon is standard and well known in the oral case [@potter_regeneration_1990], and @simmons_memes_2011 have shown that is it also common in blogspace [see @lauf_analyzing_2013 for a typology of the most frequently observed transformations].
+  This phenomenon is standard and well known in the oral case [@potter_regeneration_1990], and @simmons_memes_2011 have shown that it is also common in blogspace [see @lauf_analyzing_2013 for a typology of the most frequently observed transformations].
 
 - Quotations are usually quite short, and thus well suited to Natural Language Processing techniques, as opposed to more elaborate types of representations one could consider analysing.
 
@@ -119,29 +119,44 @@ These short linguistic utterances additionally had a number of advantages:
 Given that quotations in blogspace are gradually transformed, when copied from website to website, through exactly the kind of cognitive bias suggested by Sperber as a mechanism for epidemiology of representations, we investigated to what point the theory accounts for transformation patterns observed in the data collected by @leskovec_meme-tracking_2009.
 In particular, we tested if cultural attractors appear in the dynamics of online quotations, and examined the role of cognitive biases in their emergence.
 
-The research developed to answer theses questions is presented in the article "The semantic drift of quotations in blogspace: a case study in short-term cultural evolution", submitted in August 2016 after major revisions to the journal *Cognitive Science*.
-It consisted in applying psycholinguistic knowledge [in particular the effects of known word features on recall, for instance @yonelinas_nature_2002 ; and @zevin_age_2002] in a *data mining* approach as is commonly used in the study of online communities [for instance @cointet_socio-semantic_2009 ; @danescu-niculescu-mizil_you_2012 ; and @gruhl_information_2004], to analyse word substitutions in the MemeTracker data set collected by @leskovec_meme-tracking_2009.
+The research developed to answer theses questions is presented in the article "The semantic drift of quotations in blogspace: a case study in short-term cultural evolution", submitted to the journal *Cognitive Science*.^[
+  The second version is currently under review (the editor requested a major revision to the version initially submitted).
+]
+It consisted in applying psycholinguistic knowledge [in particular the effects of known word features on recall, for instance @yonelinas_nature_2002; and @zevin_age_2002] in a *data mining* approach as is commonly used in the study of online communities [for instance @cointet_socio-semantic_2009; @danescu-niculescu-mizil_you_2012; and @gruhl_information_2004], to analyse word substitutions in the MemeTracker data set collected by @leskovec_meme-tracking_2009.
 Using this technique we show that the way online authors replace words is heavily biased, consistent with known effects in psycholinguistics, and compatible with the existence of cultural attractors.
 
 We also demonstrate is it possible to study epidemiology of representations on complex linguistic content out of the laboratory, by doing the equivalent of a large scale psycholinguistics experiment on data from blogspace.
-Finally, the manuscript discusses the cost that such a study faces in dealing with the compexity of *in vivo* data, be it through the necessary filtering techniques to remove spam or the reconstitution of missing information in the data.
+Finally, the manuscript discusses the cost that such a study faces in dealing with the complexity of *in vivo* data, be it through the necessary filtering techniques to remove spam or the reconstitution of missing information in the data.
 
-Discussing empirical works in the context of current debates
-------------------------------------------------------------
+The contribution of empirical works to current debates
+------------------------------------------------------
 
-\add{Elements of the epistemological paper (shortcomings), and how we show that the previous works open these questions to scrutiny
+A second goal of the project is to examine the contributions of this empirical work in the context of the debate surrounding cultural evolution.
 
-Social anthropologists and unorthodox streams from cognitive science in particular (extended, embodied, enactive, and embedded cognitive science), debate the notion of *cognitive representations*, and criticize the boundaries it defines between biological, psychological, and cultural [see in particular ingold; as well as cuffari].
+Indeed, a number of authors in anthropology and "4E" cognitive science^[Embodied, Extended, Embedded, and Enactive cognitive science.] discuss the very notion of cognitive representation on which epidemiology of representations is built, and criticise the boundaries it defines between biological, psychological, and cultural [see @cuffari_participatory_2014, for a critique from enactive cognitive science; see @ingold_transmission_1997; and -@ingold_complementarity_1998, for a critique from social anthropology].
+In line with prior works in social science [@mauss_les_1936; @bourdieu_sens_1980; @giddens_constitution_1984] and the ecological approach to psychology developed by @bateson_steps_1972 and @gibson_ecological_2014, they argue that cognitive representations have no meaning *per se*, and therefore cannot be at the centre of a theory of cultural evolution.
+Instead, they suggest that cultural evolution is best captured together with biological evolution in an extended framework for life evolution such as Developmental Systems Theory [@oyama_cycles_2001], which can account for multiple inheritance and context sensitivity [@fuentes_evolution_2006].
+As @ingold_trouble_2007 [p. 16] explains:
 
-Important when you touch the relationship with context, which is what underlies meaning, and this surfaces is current experiments.
+> (...) developmental thinking allows us to recognize that we are not dealing with separate but parallel systems, respectively biological and cultural, but rather that the biological process of development, of the living human organism in its environment, *is* precisely the process by which cultural knowledge and skills are inculcated and embodied.
 
-Concluding that these new methods open theoretical debates to empirical investigation.}
+Far from being a secondary issue for the empirical work we advocate, this debate is central in attempts to formalise the relationships between representation and context, which is where the meaning of a representation emerges.
+In spite of this, the question has been somewhat restricted to anthropological circles and, to our knowledge, is not yet explicitly addressed by cognitively inspired empirical work [@ingold_trouble_2007].
+A second article, submitted to *Travaux de Linguistique*,^[
+  The initial abstract proposal has been accepted for a special issue on "Les mèmes langagiers : Propagation, figement et déformation", the full manuscript is currently under review.
+]
+discusses this issue and describes how it surfaces in experiments where the representations are short meaningful sentences, such as those described in the sections preceding and following this one.
+We believe that bringing together criticisms from the various disciplines interested in cultural evolution [as argued by @voogt_navigating_2015], on one side, and further developing empirical approaches on the other side, will enable the fields involved to test any hypotheses which have not yet been examined under consensual conditions.
 
-La troisième étape consiste à faire l'examen critique des apports et des limites de ces approches, notamment dans le cadre du débat sur les façons de lier sciences sociales et cognition, dans lequel de nombreuses disciplines proposent des points de vue différents.
+Our goal in this stage, therefore, is twofold:
+first, thoroughly map the debate between cultural epidemiologists and supporters of extended approaches to life evolution;
+second, identify the precise controversial points which the new approaches developed here open to empirical scrutiny (indeed, a sub-goal of the next stage is precisely to show how this debate is unavoidable for transmission chain experiments).
+This is the current focus of work, to be completed by December 2016
 
 Semi-controlled transmission chains: Gistr experiment
 -----------------------------------------------------
 
+Together with the first part of the project, it leads to the final stage: controlled transmission chains of linguistic content.
 Because of the constraints of the data set used in the previous study (notably missing information that had to be inferred), a number of questions were left unanswered and warranted further exploration.
 
 The second part of this project therefore focuses on an *in vitro* experiment which
@@ -169,6 +184,9 @@ The second part of this project therefore focuses on an *in vitro* experiment wh
 
 - Contrastes minimaux entre deux tâches
 }
+
+as @kirby_cumulative_2008 [p. 10685] have observed for artificial vocabularies, "cultural transmission (...) gives rise to adaptive systems that respond to the pressures imposed by the transmission bottleneck that exists between the producer and learner of behavior":
+we aim to show how the long-term evolution observed in linguistic transmission chains depends on the constraints of the transmission step (which is part of the context of representations during transmission).
 
 La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
 Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
