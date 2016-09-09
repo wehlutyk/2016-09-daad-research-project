@@ -135,23 +135,23 @@ A second goal of the project is to examine the contributions of this empirical w
 
 Indeed, a number of authors in anthropology and "4E" cognitive science^[Embodied, Extended, Embedded, and Enactive cognitive science.] discuss the very notion of cognitive representation on which epidemiology of representations is built, and criticise the boundaries it defines between biological, psychological, and cultural [see @cuffari_participatory_2014, for a critique from enactive cognitive science; see @ingold_transmission_1997; and -@ingold_complementarity_1998, for a critique from social anthropology].
 In line with prior works in social science [@mauss_les_1936; @bourdieu_sens_1980; @giddens_constitution_1984] and the ecological approach to psychology developed by @bateson_steps_1972 and @gibson_ecological_2014, they argue that cognitive representations have no meaning *per se*, and therefore cannot be at the centre of a theory of cultural evolution.
-Instead, they suggest that cultural evolution is best captured together with biological evolution in an extended framework for life evolution such as Developmental Systems Theory [@oyama_cycles_2001], which can account for multiple inheritance and context sensitivity [@fuentes_evolution_2006].
+@fuentes_evolution_2006, among others, instead suggests that cultural evolution is best captured together with biological evolution in an extended framework for life evolution such as Developmental Systems Theory [@oyama_cycles_2001] which can account for multiple inheritance and sensitivity to context.
 As @ingold_trouble_2007 [p. 16] explains:
 
 > (...) developmental thinking allows us to recognize that we are not dealing with separate but parallel systems, respectively biological and cultural, but rather that the biological process of development, of the living human organism in its environment, *is* precisely the process by which cultural knowledge and skills are inculcated and embodied.
 
 Far from being a secondary issue for the empirical work we advocate, this debate is central in attempts to formalise the relationships between representation and context, which is where the meaning of a representation emerges.
-In spite of this, the question has been somewhat restricted to anthropological circles and, to our knowledge, is not yet explicitly addressed by cognitively inspired empirical work [@ingold_trouble_2007].
+In spite of this, the question has remained in anthropological circles and, to our knowledge, is not yet explicitly addressed by cognitively inspired empirical work [@ingold_trouble_2007].
 A second article, submitted to *Travaux de Linguistique*,^[
   The initial abstract proposal has been accepted for a special issue on "Les mèmes langagiers : Propagation, figement et déformation", the full manuscript is currently under review.
 ]
-discusses this issue and describes how it surfaces in experiments where the representations are short meaningful sentences, such as those described in the sections preceding and following this one.
-We believe that bringing together criticisms from the various disciplines interested in cultural evolution [as argued by @voogt_navigating_2015], on one side, and further developing empirical approaches on the other side, will enable the fields involved to test any hypotheses which have not yet been examined under consensual conditions.
+discusses this issue and describes how it surfaces in experiments where the representations are short sentences, such as those described in the sections preceding and following this one.
+We believe that bringing together criticisms from the various disciplines interested in cultural evolution, on one side, and further developing empirical approaches, on the other side, will enable the fields involved to test any hypotheses which have not yet been examined under consensual conditions.
 
-Our goal in this stage, therefore, is twofold:
+Our goal to complete this stage, therefore, is twofold:
 first, thoroughly map the debate between cultural epidemiologists and supporters of extended approaches to life evolution;
 second, identify the precise controversial points which the new approaches developed here open to empirical scrutiny (indeed, a sub-goal of the next stage is precisely to show how this debate is unavoidable for transmission chain experiments).
-This is the current focus of work, to be completed by December 2016
+This is the current focus of work, to be completed by December 2016.
 
 Semi-controlled transmission chains: Gistr experiment
 -----------------------------------------------------
