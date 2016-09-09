@@ -35,7 +35,7 @@ header-includes:
 Introduction
 ============
 
-\todo{Faire attention à attacher aussi un peu dans le champ de l'anthropologie culturelle, pas que psycho-cog (pas du temps perdu car utile pour l'état de l'art de la thèse) si jamais les Gutachterinnen ont l'heur d'être SHS}
+\todo{Ancrer un peu plus dans l'anthropologie culturelle, pas que psycho-cog}
 
 Recent years have seen several attempts to bring cognitive science and social science together.
 "Social cognition", "cognitive economy" and "cultural evolution" are examples of such fields having recently emerged, approached from multiple viewpoints and involving a variety of disciplines.
@@ -72,6 +72,7 @@ By applying the tools of psycholinguistics to the study of online communities on
 
 Scientific goals
 ================
+\label{goals}
 
 \todo{tone down}
 
@@ -94,9 +95,11 @@ By fruitfully combining social science, psycholinguistics, and large scale model
 
 Project breakdown
 =================
+\label{breakdown}
 
 Transformations of quotations in blogspace
 ------------------------------------------
+\label{breakdown-memetracker}
 
 The first stage of this project focused on the analysis of *in vivo* interpretation-reproduction process by which representations evolve.
 
@@ -119,8 +122,8 @@ These short linguistic utterances additionally had a number of advantages:
 Given that quotations in blogspace are gradually transformed, when copied from website to website, through exactly the kind of cognitive bias suggested by Sperber as a mechanism for epidemiology of representations, we investigated to what point the theory accounts for transformation patterns observed in the data collected by @leskovec_meme-tracking_2009.
 In particular, we tested if cultural attractors appear in the dynamics of online quotations, and examined the role of cognitive biases in their emergence.
 
-The research developed to answer theses questions is presented in the article "The semantic drift of quotations in blogspace: a case study in short-term cultural evolution", submitted to the journal *Cognitive Science*.^[
-  The second version is currently under review (the editor requested a major revision to the version initially submitted).
+The research developed to answer theses questions is presented in the article "*The semantic drift of quotations in blogspace: a case study in short-term cultural evolution*", submitted to the journal *Cognitive Science*.^[
+  The second version of the manuscript, available at [hal.archives-ouvertes.fr/hal-01143986](https://hal.archives-ouvertes.fr/hal-01143986), is currently under review (the editor requested a major revision to the version initially submitted).
 ]
 It consisted in applying psycholinguistic knowledge [in particular the effects of known word features on recall, for instance @yonelinas_nature_2002; and @zevin_age_2002] in a *data mining* approach as is commonly used in the study of online communities [for instance @cointet_socio-semantic_2009; @danescu-niculescu-mizil_you_2012; and @gruhl_information_2004], to analyse word substitutions in the MemeTracker data set collected by @leskovec_meme-tracking_2009.
 Using this technique we show that the way online authors replace words is heavily biased, consistent with known effects in psycholinguistics, and compatible with the existence of cultural attractors.
@@ -130,6 +133,7 @@ Finally, the manuscript discusses the cost that such a study faces in dealing wi
 
 The contribution of empirical works to current debates
 ------------------------------------------------------
+\label{breakdown-epistemology}
 
 A second goal of the project is to examine the contributions of this empirical work in the context of the debate surrounding cultural evolution.
 
@@ -138,12 +142,13 @@ In line with prior works in social science [@mauss_les_1936; @bourdieu_sens_1980
 @fuentes_evolution_2006, among others, instead suggests that cultural evolution is best captured together with biological evolution in an extended framework for life evolution such as Developmental Systems Theory [@oyama_cycles_2001] which can account for multiple inheritance and sensitivity to context.
 As @ingold_trouble_2007 [p. 16] explains:
 
-> (...) developmental thinking allows us to recognize that we are not dealing with separate but parallel systems, respectively biological and cultural, but rather that the biological process of development, of the living human organism in its environment, *is* precisely the process by which cultural knowledge and skills are inculcated and embodied.
+> [D]evelopmental thinking allows us to recognize that we are not dealing with separate but parallel systems, respectively biological and cultural, but rather that the biological process of development, of the living human organism in its environment, *is* precisely the process by which cultural knowledge and skills are inculcated and embodied.^[Emphasis is the author's.]
 
 Far from being a secondary issue for the empirical work we advocate, this debate is central in attempts to formalise the relationships between representation and context, which is where the meaning of a representation emerges.
 In spite of this, the question has remained in anthropological circles and, to our knowledge, is not yet explicitly addressed by cognitively inspired empirical work [@ingold_trouble_2007].
-A second article, submitted to *Travaux de Linguistique*,^[
-  The initial abstract proposal has been accepted for a special issue on "Les mèmes langagiers : Propagation, figement et déformation", the full manuscript is currently under review.
+A second article, "*Pour une étude du contexte d'interprétation*", submitted to *Travaux de Linguistique*,^[
+  The initial abstract proposal has been accepted for a special issue on "*Les mèmes langagiers : Propagation, figement et déformation*".
+  The full manuscript is currently under review, and a copy of it is attached in the grant application folder.
 ]
 discusses this issue and describes how it surfaces in experiments where the representations are short sentences, such as those described in the sections preceding and following this one.
 We believe that bringing together criticisms from the various disciplines interested in cultural evolution, on one side, and further developing empirical approaches, on the other side, will enable the fields involved to test any hypotheses which have not yet been examined under consensual conditions.
@@ -155,48 +160,77 @@ This is the current focus of work, to be completed by December 2016.
 
 Semi-controlled transmission chains: Gistr experiment
 -----------------------------------------------------
+\label{breakdown-gistr}
 
-Together with the first part of the project, it leads to the final stage: controlled transmission chains of linguistic content.
-Because of the constraints of the data set used in the previous study (notably missing information that had to be inferred), a number of questions were left unanswered and warranted further exploration.
+Because of the constraints of the data set used in the online study of quotations (notably missing information that had to be inferred) the analysis was restricted to substitutions of a word by another, leaving questions about other transformations unanswered.
+This leads us to the third and final part of the project, consisting in a series of transmission chain experiments to explore what the *in vivo* experiment could not:
+the general transformations undergone by short sentences (such as quotations, but not limited to them) when they are interpreted and produced anew under controlled conditions, and their cumulative effect on content in the long term.
 
-The second part of this project therefore focuses on an *in vitro* experiment which
+A secondary goal is to empirically show the importance of context and transmission conditions in such experiments.
+As @kirby_cumulative_2008 [p. 10685] have observed for artificial vocabularies:
 
-\add{
+> [Cultural transmission] gives rise to adaptive systems that respond to the pressures imposed by the transmission bottleneck that exists between the producer and learner of behavior.
 
-- Elements of the Gistr Whitepaper (not limited to quotations),
+Following the debate presented in the previous section, this type of dependence of long-term results on transmission conditions and context should generalise to other types of culturally transmitted content, a fact we wish to elicit with these experiments.
 
-- Details on the first launch
-}
+To do so we developed an experiment, under the form of a web application, aimed at generating transmission chains of short sentences.
+Since each seed sentence is sent to several different subjects, the data consists of transmission *trees* where each sentence is a subject's rewritten recollection of the previous sentence.^[Each sentence should be the *gist* of the previous one, hence the name *Gistr* for the experiment.]
+A detailed description of the experiment can be found in the progress report "*The Gistr Platform*".^[Available at [hal.archives-ouvertes.fr/hal-01361964](https://hal.archives-ouvertes.fr/hal-01361964).]
+As explained above in section\ \ref{goals}, implementing this experiment in the browser lets us easily gather large amounts of data in a short period of time, at relatively low financial cost.
+Each subject is completing the task on their own computer, with reception and distribution of sentences dealt with by the experiment's server.
+This means we can collect transmission trees for hundreds of subjects, each item being produced on the basis of another subject's output, in a matter of hours without any logistics.
+
+After a few pilots, a preliminary iteration of the experiment was launched last year, with 50 subjects creating 50 trees (48 sentences each -- 6 branches of 8 iterations in each tree).
+The data collected is being used for preliminary analyses on transmissibility of the sentences and divergence across branches [with tools similar to what @claidiere_cultural_2014; and @cornish_systems_2013 use], and showed a number of weaknesses in the experimental design that needed fixing.
+What follows is a detailed work plan for the next experimental iterations which, we hope, can be funded by the DAAD in order to complete this project.
 
 ### Planned work {-}
 
-\add{Work remaining, which will be done during the grant.
+The first work item solves the main problem we encountered in the preliminary data: a flavour of spam.
+Indeed, some sentences entered by the subjects were nonsensical, or addressed directly to the experimenter, and had to be discarded along with all the sentences following them in a chain (the final accumulated spam made up 22.4% of our data, and led to unevenly shaped trees because of branches being cut off before they ended).
+Aside from improving instructions, we will implement a scoring system linked to subjects' final payment, giving them a real incentive to perform along clear rules.
+Each sentence transformed will increase a subject's score, and subjects will have the option to flag sentences as nonsensical.
+If we confirm that a flagged sentence is spam, the original author loses score points and therefore money, with immediate feedback (if the sentence is not spam, the subject who abusively flagged it is the one to lose points).
+As similar schemes -- communicating a set of clear incentive rules linked to subject payment -- are also used in several online platforms, we are confident this will prevent spam in further iterations.
 
-- Anti spam
+The second work item concerns the types of sentences we use in the experiment.
+The pilots and preliminary iteration tested a broad spectrum of sentences, drawn from the quotation data set presented in section\ \ref{breakdown-memetracker}, famous compelling quotes from WikiSource or movie scripts, short news stories [such as those used by @moussaid_amplification_2015] and short tales [such as the one used by @bartlett_remembering:_1933].
+While clear patterns appeared in this data, such as sentences deep in the trees being easier to copy than sentences at the beginning [a result similar to what @claidiere_cultural_2014, find with visual patterns transmitted by apes], we decided to restrict the types of sentences introduced to make the analysis of all their transformations tractable.
 
-- Rationalisation des sources (cf. wiki)
+A first set of iterations will therefore explore transformations of short sentences with a single self-standing component such as "the boy was hit by the girl", making it very difficult to remove large parts of the sentence while still keeping it meaningful.
+In this situation transformations should concentrate on word replacements or structural changes to the sentence [e.g. a grammatical change can arise after a verb is replaced by another verb calling for a different structure, as @lombardi_regeneration_1992, show].
+The sentences devised by @jefferies_automatic_2004 are one of the starting points for these iterations.
 
-- Transformations de courtes phrases à une seule composante
+A second set of iterations will explore transformations with many removable components, such as the following one (taken from the movie *Twelve Angry Men*, and included in the first iteration):
 
-- Transformations de phrases transformables en enlevant des composants, on transformant des composants
+> This kid's been kicked around all his life, born in a slum, mother dead since he was nine, lived for a year and a half in an orphanage when his father was serving a jail term for forgery, he's a wild angry kid, that's all he's ever been.
 
-- Modèle de marche aléatoire
+Such a sentence can be transformed on two main levels:
+components can be added, removed, or switched around, and components can be internally transformed.
+In particular, we are interested in analysing which components are maintained in the final sentences.
+We have selected several additional data sources which we plan to use in constructing sentences for these to sets of iterations, several of which come from works such as @danescu-niculescu-mizil_you_2012 and their collaborators' research.^[The full list is available on the project wiki, [osf.io/k7d38/wiki/Seeds/](https://osf.io/k7d38/wiki/Seeds/).]
 
-- Contrastes minimaux entre deux tâches
-}
+\add{Adding context to sentences to disambiguate them}
 
-as @kirby_cumulative_2008 [p. 10685] have observed for artificial vocabularies, "cultural transmission (...) gives rise to adaptive systems that respond to the pressures imposed by the transmission bottleneck that exists between the producer and learner of behavior":
-we aim to show how the long-term evolution observed in linguistic transmission chains depends on the constraints of the transmission step (which is part of the context of representations during transmission).
+![Cumulated transformation of a sentence *vs.* depth in a tree, for four different example trees.
+  In a given chart (corresponding to a given tree):
+  each colour represents a different branch of the tree;
+  dots (grey or coloured) represent sentences;
+  the large red dot at depth 0 is the initial sentence, and the other large coloured dots are the final sentences of each branch of the tree.
+  A dot higher (resp. no higher) than the one preceding it in its branch means the new sentence is semantically different compared to (resp. no different from) the previous one.
+  \label{f:gistr-cumtr}
+](images/trajectories_cumtr-depth_firstlinecropped.png)
 
-La deuxième consiste à reproduire le processus et ces effets dans une série d'expériences de chaînes de transmission pour en examiner les déterminants en situation contrôlée.
-Cette partie permet d'examiner les effets accumulés de la cognition sur l'évolution du contenu ainsi que les rétroactions que cette évolution génère sur le processus de transformation lui-même.
-Elle permet également de mettre en lumière le rôle de la tâche de reproduction dans le type d'évolution à long terme qu'on observe.
-Ce travail crée les conditions pour une modélisation réelle du processus dans des travaux futurs, intégrant les principes et rétroactions identifiés dans des simulations à comparer aux phénomènes réels, pour identifier ainsi le rôle des transformations dans l'évolution du paysage global.
+\add{Contrastes minimaux entre deux tâches}
+
+\add{Modèle de marche aléatoire}
 
 Location and environment
 ========================
 
 \todo{Why CMB, with who}
+
+\add{Camille will be there, and I will interact closely with the Digital Humanities team.}
 
 Bibliographie {-}
 =============
