@@ -187,10 +187,10 @@ What follows is a detailed work plan for the next experimental iterations which,
 ### Planned work {-}
 
 The first work item solves the main problem we encountered in the preliminary data: a flavour of spam.
-Indeed, some sentences entered by the subjects were nonsensical, or addressed directly to the experimenter, and had to be discarded along with all the sentences following them in a chain (the final accumulated spam made up 22.4% of our data, and led to unevenly shaped trees because of branches being cut off before they ended).
+Indeed, some sentences entered by the subjects were nonsensical, or addressed directly to the experimenter, and had to be discarded along with all the sentences following them in a chain (the final accumulated spam made up 22.4% of our data, and led to unevenly-shaped trees because of branches being cut off before they ended).
 Aside from improving instructions, we will implement a scoring system linked to subjects' final payment, giving them a real incentive to perform along clear rules.
 Each sentence transformed will increase a subject's score, and subjects will have the option to flag sentences as nonsensical.
-If we confirm that a flagged sentence is spam, the original author loses score points and therefore money, with immediate feedback (if the sentence is not spam, the subject who abusively flagged it is the one to lose points).
+When that happens, and if we confirm that a flagged sentence is spam, the original author loses score points and therefore money, with immediate feedback (if the sentence is not spam, the subject who abusively flagged it is the one to lose points).
 As similar schemes -- communicating a set of clear incentive rules linked to subject payment -- are also used in several online platforms, we are confident this will prevent spam in further iterations.
 
 The second work item concerns the types of sentences we use in the experiment.
@@ -201,36 +201,56 @@ A first set of iterations will therefore explore transformations of short senten
 In this situation transformations should concentrate on word replacements or structural changes to the sentence [e.g. a grammatical change can arise after a verb is replaced by another verb calling for a different structure, as @lombardi_regeneration_1992, show].
 The sentences devised by @jefferies_automatic_2004 are one of the starting points for these iterations.
 
-A second set of iterations will explore transformations with many removable components, such as the following one (taken from the movie *Twelve Angry Men*, and included in the first iteration):
+A second set of iterations will explore transformations of sentences with many removable components, such as the following one (taken from the movie *Twelve Angry Men*, and included in the preliminary launch):
 
 > This kid's been kicked around all his life, born in a slum, mother dead since he was nine, lived for a year and a half in an orphanage when his father was serving a jail term for forgery, he's a wild angry kid, that's all he's ever been.
 
-Such a sentence can be transformed on two main levels:
+Such a sentence can be transformed on two levels:
 components can be added, removed, or switched around, and components can be internally transformed.
 In particular, we are interested in analysing which components are maintained in the final sentences.
-We have selected several additional data sources which we plan to use in constructing sentences for these to sets of iterations, several of which come from works such as @danescu-niculescu-mizil_you_2012 and their collaborators' research.^[The full list is available on the project wiki, [osf.io/k7d38/wiki/Seeds/](https://osf.io/k7d38/wiki/Seeds/).]
+We have selected several additional data sources to construct sentences for these to sets of iterations, several of which come from works such as @danescu-niculescu-mizil_you_2012 and their collaborators' research.^[The full list is available on the project wiki, [osf.io/k7d38/wiki/Seeds/](https://osf.io/k7d38/wiki/Seeds/).]
 
-\add{Adding context to sentences to disambiguate them}
+The third and fourth work items concern the context in which the sentences are presented.
+As explained in the report "*The Gistr Platform*", we intend to gradually introduce complexity to the tasks in the experiment, making sure each additional element in the task serves a purpose.
+This led to design the first iterations without providing any context to the sentences to be transformed.
+However, as the manuscript "*Pour une étude du contexte d'interprétation*" discusses, context-less sentences can be very ambiguous.
+Our third work item, therefore, will place sentences at the end or in the middle of a contextual paragraph, to clarify their use and the features that should be attended to in order to grasp their meaning.
+This, combined with more constrained reading times, should lead to transformations reflecting the *gist* that people keep from a sentence given the surrounding paragraph.
 
-![Cumulated transformation of a sentence *vs.* depth in a tree, for four different example trees.
+This leads to the fourth and final work item:
+contrasting tasks and contexts.
+Indeed, the references included in section\ \ref{breakdown-epistemology} argue that representations only have meaning insofar as they relate to a concrete situation, and the relationship to that context determines how a representation can be interpreted and used.
+As a consequence, transmission chains such as this one should heavily depend on the concrete transmission situations they create.
+We believe this dependence on context can be shown empirically by comparing the evolution of sentences under very slightly different transmission contraints (more or less distraction or reading time), different scoring rules, or different contextual information.
+
+As regards data analysis, we will apply a combination of qualitative and quantitative measures across the four work items.
+Manual observation, sentence-coding, and cross-checking between coders will let us distinguish the different types of transformations sentences undergo, and the qualitatively different results that evolution leads to.
+Statistical analysis of the transformation rate of sentences will let us fit evolution models based on biased random walk processes.
+A change in model parameters will indicate a different type of evolution is happening.
+Figure\ \ref{f:gistr-cumtr} gives an example of what this analysis consists in:
+the evolution charts show very different behaviours depending on the initial sentence of a tree (either one or two very stable sentences, in charts 1 and 3, or many unstable points, in charts 2 and 4), differences which fitted models will reflect.
+
+![Cumulated transformation of sentences *vs.* depth in a tree, for four different example trees from the preliminary launch.
   In a given chart (corresponding to a given tree):
   each colour represents a different branch of the tree;
   dots (grey or coloured) represent sentences;
-  the large red dot at depth 0 is the initial sentence, and the other large coloured dots are the final sentences of each branch of the tree.
-  A dot higher (resp. no higher) than the one preceding it in its branch means the new sentence is semantically different compared to (resp. no different from) the previous one.
+  the large red dot at depth\ 0 is the initial sentence, and the other large coloured dots are the final sentences of each branch of the tree.
+  A dot higher (resp. no higher) than the one preceding it in its branch means the new sentence is semantically different (resp. no different) from the sentence preceding it.
+  A line of horizontally aligned dots therefore indicates that a sentence was copied several times without semantic transformations, i.e. that the sentence is a stable point in the evolution.
   \label{f:gistr-cumtr}
 ](images/trajectories_cumtr-depth_firstlinecropped.png)
 
-\add{Contrastes minimaux entre deux tâches}
-
-\add{Modèle de marche aléatoire}
+Finally, the results of this work will be published and used as an integral part of my PhD thesis.
+The other sections of my thesis are already well organised through the articles we have submitted to journals, and I plan to finish writing it once I return to France after completion of this final part of the project.
 
 Location and environment
 ========================
 
-\todo{Why CMB, with who}
-
-\add{Camille will be there, and I will interact closely with the Digital Humanities team.}
+I wish to fulfil this project at the Centre Marc Bloch for two fundamental reasons.
+First, the CMB is a highly interdisciplinary research institution where cross-cutting debates are encouraged and regularly spark up between members, which is precisely the type of environment I will be needing to complete this project.
+Second, I will also be working closely with the Digital Humanities team; I know its members well from previous research, and the team is initiating a new research cycle through the ANR grant *Algodiv* that attracts several researchers focusing on related questions, and approaching them with similar tools.
+The team is led by Camille Roth, my co-advisor, who will also be present during my stay and with whom I have weekly -- and sometimes daily -- work meetings.
+Overall, working at the CMB has been a very fruitful experience in the past, and its current dynamics makes it by far the best institution I can think of to complete the project I have described in this document.
 
 Bibliographie {-}
 =============
