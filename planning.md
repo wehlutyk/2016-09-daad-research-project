@@ -1,5 +1,5 @@
 ---
-title: Work Planning
+title: Work Plan
 author: Sébastien Lerique
 lang: en-GB
 geometry: margin=1.2in
