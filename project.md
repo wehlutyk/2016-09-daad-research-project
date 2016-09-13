@@ -15,7 +15,7 @@ author: |
   ] \
   Co-advisor: Camille Roth^[
     CAMS, Centre Marc Bloch (CMB, UMIFRE 14, CNRS-MAEE-HU, Berlin), and Sciences Po Paris.
-    Email: \hbox{\href{mailto:roth@ehess.fr}{roth@ehess.fr}}
+    Email: \hbox{\href{mailto:camille.roth@sciencespo.fr}{camille.roth@sciencespo.fr}}
   ]
 lang: en-GB
 geometry: margin=1.2in
@@ -35,16 +35,13 @@ header-includes:
 Introduction
 ============
 
-\todo{Ancrer un peu plus dans l'anthropologie culturelle, pas que psycho-cog}
-
 Recent years have seen several attempts to bring cognitive science and social science together.
 "Social cognition", "cognitive economy" and "cultural evolution" are examples of such fields having recently emerged, approached from multiple viewpoints and involving a variety of disciplines.
 The project we put forward focuses on a subject formalised by Dan Sperber in the mid-nineties:
-in a series of innovative articles gathered in @sperber_explaining_1996, the author suggests a research program called *cultural epidemiology*, which aims to provide the cognitive and social sciences with a common framework to address a long-standing anthropological question:
-how can societies be so diverse when the people that form them are all made of the same psychological substrate?
+in a series of innovative articles gathered in @sperber_explaining_1996, the author suggests a research program called *cultural epidemiology*, which aims to provide the cognitive and social sciences with a common framework to address interdisciplinary questions.
 The framework Sperber suggests starts from an ontology made only of "mental representations" (those from cognitive science) and their expressions in the outer world, "public representations".
-The core principle is then to characterise societies by the distribution of public representations that circulate in them, and combine knowledge from cognitive science and anthropology to explain their evolution.
-As Sperber argues, this naturalistic approach builds on cognitive principles while at the same time allowing anthropological questions to be rephrased in terms of epidemiology of representations.
+He then proposes to study the distribution of public representations that circulate in a society, and combine knowledge from cognitive science and anthropology to explain their evolution.
+As Sperber argues, this naturalistic approach builds on cognitive principles, is amenable to and can benefit from anthropological works, and allows interdisciplinary questions to be rephrased in terms of epidemiology of representations.
 For instance:
 what types of representations are only weakly transformed as they are interpreted and produced anew by successive people?
 Those representations, spreading wider than the others, become *cultural*.
@@ -61,7 +58,7 @@ A third approach crawls online content and communities in order to study the spr
 While earlier works were based on atomic propagation and exposure models where simple entities such as URLs and innovations were the central object [see @cointet_how_2007 for a discussion], this stream of research is increasingly modelling representations as deep objects with complexity of their own, improving on simpler virus-like models.
 Several works have now studied large quantities of meaningful sentences, showing that their propagation depends heavily on social context [@bakshy_social_2009] and semantic content [@danescu-niculescu-mizil_you_2012], as well as on competition between items [@weng_competition_2012].
 
-The wide array of disciplines studying these complimentary questions, and the variety of techniques used in the process testify to a major obstacle:
+The wide array of disciplines studying these complimentary questions, and the variety of techniques used in the process, testify to a major obstacle:
 collecting relevant data in usable amounts to analyse cultural evolution is not easy.
 The works cited above develop several strategies to face the problem, yet invariably leave core aspects of the question aside:
 transmission chains operate on extremely simple representations;
@@ -74,11 +71,9 @@ Scientific goals
 ================
 \label{goals}
 
-\todo{tone down}
+My PhD research project takes place within this framework, and aims at developing empirical approaches for the study of cultural evolution with the following two broad goals:
 
-This research project, which, with the support of the DAAD, I will be able to conclude within my PhD, develops empirical approaches for the study of cultural evolution with the following two broad goals:
-
-1. Dramatically increase the amounts of data collected in order to improve experiments' resolving power, and
+1. Dramatically increase the amounts of data collected in order to improve experiments' resolving power,
 1. Diversify data sources to open the study of out-of-laboratory quantitative questions on cultural evolution.
 
 We accomplish this by bringing data mining and psycholinguistics together through the possibilities of modern browsers and computing platforms.
@@ -87,11 +82,12 @@ by applying data mining techniques to filter and extract relevant information fr
 Our second approach connects fields the other way around:
 by using the potential and ubiquity of modern browsers, we lift a number of constraints on cognitive science and cultural evolution experiments in the laboratory.
 In particular, we develop transmission chain experiments as real-time web applications in the browser.
-This lets us work on ecological content with a much shorter transmission cycle and a diversified and easily scalable subject pool, while still keeping full control over the complexity of cognitive tasks implemented.
-Alongside this empirical work, we review the main critiques of the *epidemiology of representations* program, both from social anthropology and non-classical streams of cognitive science, which frame the questions of cultural evolution differently and pinpoint debated assumptions in need of further work.
+This lets us work on ecological content with a short transmission cycle and a diversified and scalable subject pool, while still keeping control over the complexity of cognitive tasks implemented.
+The support of the DAAD will be key in refining and completing this second approach.
+Alongside this empirical work, we review the main critiques of the *epidemiology of representations* program, both from social anthropology and non-classical streams of cognitive science, which frame the questions of cultural evolution differently and identify debated assumptions in need of further work.
 
-Upon completion, this project will have shown a path to analyse the evolution of real linguistic content, and the links it has with overall cultural change, with a set of workable constraints compared to previous techniques.
-By fruitfully combining social science, psycholinguistics, and large scale modelling, we hope to broaden the field of empirical possibilities, making it easier for the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
+Upon completion, I hope this project will have shown a path to analyse the evolution of real linguistic content, and the links it has with overall cultural change, with a set of workable constraints compared to previous techniques.
+By fruitfully combining social science, psycholinguistics, and large scale modelling, we hope to extend the field of empirical possibilities, making it easier for the various disciplines involved to address new and debated questions on the links between cognition and cultural evolution.
 
 Project breakdown
 =================
@@ -248,9 +244,9 @@ Location and environment
 
 I wish to fulfil this project at the Centre Marc Bloch for two fundamental reasons.
 First, the CMB is a highly interdisciplinary research institution where cross-cutting debates are encouraged and regularly spark up between members, which is precisely the type of environment I will be needing to complete this project.
-Second, I will also be working closely with the Digital Humanities team; I know its members well from previous research, and the team is initiating a new research cycle through the ANR grant *Algodiv* that attracts several researchers focusing on related questions, and approaching them with similar tools.
+Second, I will also be working closely with the Digital Humanities/Computational Social Science team; I know its members well from previous research, and the team is initiating a new research cycle through the ANR grant *Algodiv* that attracts several researchers focusing on related questions, and approaching them with similar tools.
 The team is led by Camille Roth, my co-advisor, who will also be present during my stay and with whom I have weekly -- and sometimes daily -- work meetings.
 Overall, working at the CMB has been a very fruitful experience in the past, and its current dynamics makes it by far the best institution I can think of to complete the project I have described in this document.
 
-Bibliographie {-}
-=============
+References {-}
+==========
