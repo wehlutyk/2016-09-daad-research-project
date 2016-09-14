@@ -97,7 +97,7 @@ Transformations of quotations in blogspace
 ------------------------------------------
 \label{breakdown-memetracker}
 
-The first stage of this project focused on the analysis of *in vivo* interpretation-reproduction process by which representations evolve.
+The first stage of this project focused on the analysis of the *in vivo* interpretation-reproduction process by which representations evolve.
 
 As alluded to in the introduction, several works have explored cultural evolution in other settings, starting with the *Dual Inheritance Theory* first introduced by @boyd_culture_1985 and @cavalli-sforza_cultural_1981.
 More recent models now include the notion of cultural attractor [see for instance @claidiere_role_2007; and @claidiere_how_2014].
@@ -121,7 +121,7 @@ In particular, we tested if cultural attractors appear in the dynamics of online
 The research developed to answer theses questions is presented in the article "*The semantic drift of quotations in blogspace: a case study in short-term cultural evolution*", submitted to the journal *Cognitive Science*.^[
   The second version of the manuscript, available at [hal.archives-ouvertes.fr/hal-01143986](https://hal.archives-ouvertes.fr/hal-01143986), is currently under review (the editor requested a major revision to the version initially submitted).
 ]
-It consisted in applying psycholinguistic knowledge [in particular the effects of known word features on recall, for instance @yonelinas_nature_2002; and @zevin_age_2002] in a *data mining* approach as is commonly used in the study of online communities [for instance @cointet_socio-semantic_2009; @danescu-niculescu-mizil_you_2012; and @gruhl_information_2004], to analyse word substitutions in the MemeTracker data set collected by @leskovec_meme-tracking_2009.
+It consisted in applying psycholinguistic knowledge [in particular about the effects of known word features on recall, for instance @yonelinas_nature_2002; and @zevin_age_2002] in a *data mining* approach as is commonly used in the study of online communities [for instance @cointet_socio-semantic_2009; @danescu-niculescu-mizil_you_2012; and @gruhl_information_2004], to analyse word substitutions in the MemeTracker data set collected by @leskovec_meme-tracking_2009.
 Using this technique we show that the way online authors replace words is heavily biased, consistent with known effects in psycholinguistics, and compatible with the existence of cultural attractors.
 
 We also demonstrate is it possible to study epidemiology of representations on complex linguistic content out of the laboratory, by doing the equivalent of a large scale psycholinguistics experiment on data from blogspace.
@@ -221,7 +221,7 @@ A second set of iterations will explore transformations of sentences with many r
 Such a sentence can be transformed on two levels:
 components can be added, removed, or switched around, and components can be internally transformed.
 In particular, we are interested in analysing which components are maintained in the final sentences.
-We have selected several additional data sources to construct sentences for these to sets of iterations, several of which come from works such as @danescu-niculescu-mizil_you_2012 and their collaborators' research.^[The full list is available on the project wiki, [osf.io/k7d38/wiki/Seeds/](https://osf.io/k7d38/wiki/Seeds/).]
+We have selected several additional data sources to construct sentences for these two sets of iterations, several of which come from works such as @danescu-niculescu-mizil_you_2012 and their collaborators' research.^[The full list is available on the project wiki, [osf.io/k7d38/wiki/Seeds/](https://osf.io/k7d38/wiki/Seeds/).]
 
 The third and fourth work items concern the context in which the sentences are presented.
 As explained in the report "*The Gistr Platform*", we intend to gradually introduce complexity to the tasks in the experiment, making sure each additional element in the task serves a purpose.
@@ -241,7 +241,7 @@ As @kirby_cumulative_2008 [p. 10685] have observed for artificial vocabularies:
 Following the debate presented in the previous section, this type of dependence of long-term results on transmission conditions and context should generalise to other types of culturally transmitted content and in particular linguistic content, a fact we believe can be shown by comparing the evolution of sentences under very slightly different transmission contraints (more or less distraction or reading time), different scoring rules, or different contextual information.
 
 As regards data analysis, we will apply a combination of qualitative and quantitative measures across the four work items.
-Manual observation, sentence-coding, and cross-checking between coders will let us distinguish the different types of transformations sentences undergo, and the qualitatively different results that evolution leads to.
+Manual observation, sentence-coding, and cross-checking between coders will let us distinguish between the different types of transformations sentences undergo, and the qualitatively different results that evolution leads to.
 Statistical analysis of the transformation rate of sentences will let us fit evolution models based on biased random walk processes.
 A change in model parameters will indicate a different type of evolution is happening.
 Figure\ \ref{f:gistr-cumtr} gives an example of what this analysis consists in:
@@ -267,7 +267,7 @@ I wish to fulfil this project at the Centre Marc Bloch for two fundamental reaso
 First, the CMB is a highly interdisciplinary research institution where cross-cutting debates are encouraged and regularly spark up between members, which is precisely the type of environment I will be needing to complete this project.
 Second, I will also be working closely with the Digital Humanities/Computational Social Science team; I know its members well from previous research, and the team is initiating a new research cycle through the ANR grant *Algodiv* that attracts several researchers focusing on related questions, and approaching them with similar tools.
 The team is led by Camille Roth, my co-advisor, who will also be present during my stay and with whom I have weekly -- and sometimes daily -- work meetings.
-Finally, I will also benefit from the presence of anthropologists and linguists, with whom I would like to discuss the conclusions of my current, more theoretical, focus of my work.
+Finally, I will also benefit from the presence of anthropologists and linguists, with whom I would like to discuss the conclusions of the current, more theoretical, focus of my work.
 Overall, working at the CMB has been a very fruitful experience in the past, and its current dynamics makes it by far the best institution I can think of to complete the project I have described in this document.
 
 References {-}
