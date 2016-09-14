@@ -127,47 +127,18 @@ Using this technique we show that the way online authors replace words is heavil
 We also demonstrate is it possible to study epidemiology of representations on complex linguistic content out of the laboratory, by doing the equivalent of a large scale psycholinguistics experiment on data from blogspace.
 Finally, the manuscript discusses the cost that such a study faces in dealing with the complexity of *in vivo* data, be it through the necessary filtering techniques to remove spam or the reconstitution of missing information in the data.
 
-The contribution of empirical works to current debates
-------------------------------------------------------
-\label{breakdown-epistemology}
-
-A second goal of the project is to examine the contributions of this empirical work in the context of the debate surrounding cultural evolution.
-
-Indeed, a number of authors in anthropology and "4E" cognitive science^[Embodied, Extended, Embedded, and Enactive cognitive science.] discuss the very notion of cognitive representation on which epidemiology of representations is built, and criticise the boundaries it defines between biological, psychological, and cultural [see @cuffari_participatory_2014, for a critique from enactive cognitive science; see @ingold_transmission_1997; and -@ingold_complementarity_1998, for a critique from social anthropology].
-In line with prior works in social science [@mauss_les_1936; @bourdieu_sens_1980; @giddens_constitution_1984] and the ecological approach to psychology developed by @bateson_steps_1972 and @gibson_ecological_2014, they argue that cognitive representations have no meaning *per se*, and therefore cannot be at the centre of a theory of cultural evolution.
-@fuentes_evolution_2006, among others, instead suggests that cultural evolution is best captured together with biological evolution in an extended framework for life evolution such as Developmental Systems Theory [@oyama_cycles_2001] which can account for multiple inheritance and sensitivity to context.
-As @ingold_trouble_2007 [p. 16] explains:
-
-> [D]evelopmental thinking allows us to recognize that we are not dealing with separate but parallel systems, respectively biological and cultural, but rather that the biological process of development, of the living human organism in its environment, *is* precisely the process by which cultural knowledge and skills are inculcated and embodied.^[Emphasis is the author's.]
-
-Far from being a secondary issue for the empirical work we advocate, this debate is central in attempts to formalise the relationships between representation and context, which is where the meaning of a representation emerges.
-In spite of this, the question has remained in anthropological circles and, to our knowledge, is not yet explicitly addressed by cognitively inspired empirical work [@ingold_trouble_2007].
-A second article, "*Pour une étude du contexte d'interprétation*", submitted to *Travaux de Linguistique*,^[
-  The initial abstract proposal has been accepted for a special issue on "*Les mèmes langagiers : Propagation, figement et déformation*".
-  The full manuscript is currently under review, and a copy of it is attached in the grant application folder.
-]
-discusses this issue and describes how it surfaces in experiments where the representations are short sentences, such as those described in the sections preceding and following this one.
-We believe that bringing together criticisms from the various disciplines interested in cultural evolution, on one side, and further developing empirical approaches, on the other side, will enable the fields involved to test any hypotheses which have not yet been examined under consensual conditions.
-
-Our goal to complete this stage, therefore, is twofold:
-first, thoroughly map the debate between cultural epidemiologists and supporters of extended approaches to life evolution;
-second, identify the precise controversial points which the new approaches developed here open to empirical scrutiny (indeed, a sub-goal of the next stage is precisely to show how this debate is unavoidable for transmission chain experiments).
-This is the current focus of work, to be completed by December 2016.
-
 Semi-controlled transmission chains: Gistr experiment
 -----------------------------------------------------
 \label{breakdown-gistr}
 
 Because of the constraints of the data set used in the online study of quotations (notably missing information that had to be inferred) the analysis was restricted to substitutions of a word by another, leaving questions about other transformations unanswered.
-This leads us to the third and final part of the project, consisting in a series of transmission chain experiments to explore what the *in vivo* experiment could not:
+This leads us to the second part of the project, consisting in a series of transmission chain experiments to explore what the *in vivo* experiment could not:
 the general transformations undergone by short sentences (such as quotations, but not limited to them) when they are interpreted and produced anew under controlled conditions, and their cumulative effect on content in the long term.
 
-A secondary goal is to empirically show the importance of context and transmission conditions in such experiments.
-As @kirby_cumulative_2008 [p. 10685] have observed for artificial vocabularies:
-
-> [Cultural transmission] gives rise to adaptive systems that respond to the pressures imposed by the transmission bottleneck that exists between the producer and learner of behavior.
-
-Following the debate presented in the previous section, this type of dependence of long-term results on transmission conditions and context should generalise to other types of culturally transmitted content, a fact we wish to elicit with these experiments.
+![Screenshot of the instructions screen for the Gistr experiment, showing the three steps the subjects go through for each sentence:
+  read, wait, rewrite.
+  \label{f:gistr-exp}
+](images/gistr-exp.png){width=70%}
 
 To do so we developed an experiment, under the form of a web application, aimed at generating transmission chains of short sentences.
 Since each seed sentence is sent to several different subjects, the data consists of transmission *trees* where each sentence is a subject's rewritten recollection of the previous sentence.^[Each sentence should be the *gist* of the previous one, hence the name *Gistr* for the experiment.]
@@ -177,12 +148,58 @@ Each subject is completing the task on their own computer, with reception and di
 This means we can collect transmission trees for hundreds of subjects, each item being produced on the basis of another subject's output, in a matter of hours without any logistics.
 
 After a few pilots, a preliminary iteration of the experiment was launched last year, with 50 subjects creating 50 trees (48 sentences each -- 6 branches of 8 iterations in each tree).
+Figures\ \ref{f:gistr-exp} and\ \ref{f:gistr-trees} show screenshots of the instructions screen and the tree exploration tool provided in this first launch.
 The data collected is being used for preliminary analyses on transmissibility of the sentences and divergence across branches [with tools similar to what @claidiere_cultural_2014; and @cornish_systems_2013 use], and showed a number of weaknesses in the experimental design that needed fixing.
-What follows is a detailed work plan for the next experimental iterations which, we hope, can be funded by the DAAD in order to complete this project.
 
-### Planned work {-}
+![Screenshot of the tree exploration tool in the Gistr experiment.
+  \label{f:gistr-trees}
+](images/gistr-trees.png){width=70%}
 
-The first work item solves the main problem we encountered in the preliminary data: a flavour of spam.
+Among those is the lack of context for the sentences presented to the subjects.
+As explained further down, this problem is closely related to an ongoing debate between epidemiology of representations and social anthropology, with far-reaching consequences.
+This leads us to devote particular attention to the matter, in order to map the corresponding debate and identify controversial assumptions in the approach developed so far;
+the corresponding work is discussed in the next section.
+The section following it (section\ \ref{plan}) describes the work that is planned for the January-April 2017 period in order to refine and complete the Gistr experiment in light of its criticisms.
+
+The contribution of empirical works to current debates
+------------------------------------------------------
+\label{breakdown-epistemology}
+
+Far from being a secondary issue for the empirical work we advocate, the context of sentences in the Gistr experiment, or lack thereof, is a central matter in attempts to analyse the meaning of a representation, which emerges precisely in the relationship between representation and context.
+In spite of this, the question has remained confined to anthropological circles and, to our knowledge, is not yet explicitly addressed by cognitively inspired empirical work [@ingold_trouble_2007].
+A second article, "*Pour une étude du contexte d'interprétation*", submitted to *Travaux de Linguistique*,^[
+  The initial abstract proposal has been accepted for a special issue on "*Les mèmes langagiers : Propagation, figement et déformation*".
+  The full manuscript is currently under review, and a copy of it is attached in the grant application folder.
+]
+describes how this issue surfaces in experiments where the representations are short sentences, such as those described in the previous sections.
+By way of an example sentence ("We're all someone's beauty and someone else's beast"), it shows how context-free representations cannot have any real meaning, and attempts to account for this fact using a critique opposed by social anthropology to epidemiology of representations.
+
+These observations led us to develop a third part to the project:
+examine the contributions of our empirical work in the context of the debate surrounding cultural evolution.
+
+Indeed, a number of authors in anthropology and "4E" cognitive science^[Embodied, Extended, Embedded, and Enactive cognitive science.] discuss the very notion of cognitive representation on which epidemiology of representations is built, and criticise the boundaries it defines between biological, psychological, and cultural [see @cuffari_participatory_2014, for a critique from enactive cognitive science; see @ingold_transmission_1997; and -@ingold_complementarity_1998, for a critique from social anthropology].
+In line with prior works in social science [@mauss_les_1936; @bourdieu_sens_1980; @giddens_constitution_1984] and the ecological approach to psychology developed by @bateson_steps_1972 and @gibson_ecological_2014, they argue that cognitive representations have no meaning *per se*, and therefore cannot be at the centre of a theory of cultural evolution.
+@fuentes_evolution_2006, among others, instead suggests that cultural evolution is best captured together with biological evolution in an extended framework for life evolution such as Developmental Systems Theory [@oyama_cycles_2001] which can account for multiple inheritance and sensitivity to context.
+As @ingold_trouble_2007 [p. 16] explains:
+
+> [D]evelopmental thinking allows us to recognize that we are not dealing with separate but parallel systems, respectively biological and cultural, but rather that the biological process of development, of the living human organism in its environment, *is* precisely the process by which cultural knowledge and skills are inculcated and embodied.^[Emphasis is the author's.]
+
+We aim to complete three objectives, therefore, in this part of the project.
+First, thoroughly map the debate between cultural epidemiologists and supporters of extended approaches to life evolution.
+Second, consolidate a firm understanding of the links between context and meaning, informing the Gistr experiment in its next iterations.
+Third, identify the precise controversial points which the new approaches developed here open to empirical scrutiny.
+Indeed we believe that bringing together criticisms from the various disciplines interested in cultural evolution, on one side, and further developing empirical approaches, on the other side, will enable the fields involved to test any hypotheses which have not yet been examined under consensual conditions.
+
+This part of the project is the current focus of work, and is to be completed by December 2016.
+What follows is a detailed work plan for the next iterations of Gistr which, we hope, can be funded by the DAAD in order to complete this project.
+
+Planned work
+============
+\label{plan}
+
+The remaining work on the Gistr experiment divides into four items.
+
+The first work item solves the main hurdle we encountered in the preliminary data: a flavour of spam.
 Indeed, some sentences entered by the subjects were nonsensical, or addressed directly to the experimenter, and had to be discarded along with all the sentences following them in a chain (the final accumulated spam made up 22.4% of our data, and led to unevenly-shaped trees because of branches being cut off before they ended).
 Aside from improving instructions, we will implement a scoring system linked to subjects' final payment, giving them a real incentive to perform along clear rules.
 Each sentence transformed will increase a subject's score, and subjects will have the option to flag sentences as nonsensical.
@@ -217,7 +234,11 @@ This leads to the fourth and final work item:
 contrasting tasks and contexts.
 Indeed, the references included in section\ \ref{breakdown-epistemology} argue that representations only have meaning insofar as they relate to a concrete situation, and the relationship to that context determines how a representation can be interpreted and used.
 As a consequence, transmission chains such as this one should heavily depend on the concrete transmission situations they create.
-We believe this dependence on context can be shown empirically by comparing the evolution of sentences under very slightly different transmission contraints (more or less distraction or reading time), different scoring rules, or different contextual information.
+As @kirby_cumulative_2008 [p. 10685] have observed for artificial vocabularies:
+
+> [Cultural transmission] gives rise to adaptive systems that respond to the pressures imposed by the transmission bottleneck that exists between the producer and learner of behavior.
+
+Following the debate presented in the previous section, this type of dependence of long-term results on transmission conditions and context should generalise to other types of culturally transmitted content and in particular linguistic content, a fact we believe can be shown by comparing the evolution of sentences under very slightly different transmission contraints (more or less distraction or reading time), different scoring rules, or different contextual information.
 
 As regards data analysis, we will apply a combination of qualitative and quantitative measures across the four work items.
 Manual observation, sentence-coding, and cross-checking between coders will let us distinguish the different types of transformations sentences undergo, and the qualitatively different results that evolution leads to.
@@ -246,7 +267,9 @@ I wish to fulfil this project at the Centre Marc Bloch for two fundamental reaso
 First, the CMB is a highly interdisciplinary research institution where cross-cutting debates are encouraged and regularly spark up between members, which is precisely the type of environment I will be needing to complete this project.
 Second, I will also be working closely with the Digital Humanities/Computational Social Science team; I know its members well from previous research, and the team is initiating a new research cycle through the ANR grant *Algodiv* that attracts several researchers focusing on related questions, and approaching them with similar tools.
 The team is led by Camille Roth, my co-advisor, who will also be present during my stay and with whom I have weekly -- and sometimes daily -- work meetings.
+Finally, I will also benefit from the presence of anthropologists and linguists, with whom I would like to discuss the conclusions of my current, more theoretical, focus of my work.
 Overall, working at the CMB has been a very fruitful experience in the past, and its current dynamics makes it by far the best institution I can think of to complete the project I have described in this document.
 
 References {-}
 ==========
+\footnotesize
