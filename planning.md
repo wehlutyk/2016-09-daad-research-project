@@ -18,7 +18,7 @@ header-includes:
 Location and interlocutors
 ==========================
 
-As explained in section 4 of the research project, all the work is planned to take place at the Centre Marc Bloch in Berlin.
+As explained in section 5 of the research project, all the work is planned to take place at the Centre Marc Bloch in Berlin.
 
 My main interlocutors will be Camille Roth, co-advisor for my PhD and leader of the Digital Humanities/Computational Social Science team at the CMB, and Mehdi Moussaïd, researcher at the Max Planck Institute for Human Development in Berlin, with whom we have developed a collaboration around transmission chain experiments.
 
