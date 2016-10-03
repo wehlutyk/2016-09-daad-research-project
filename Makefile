@@ -1,5 +1,5 @@
 DEPS = bibliography.bib
-PDFS = project.pdf publications.pdf
+PDFS = project.pdf publications.pdf planning.pdf
 
 default: $(PDFS)
 
